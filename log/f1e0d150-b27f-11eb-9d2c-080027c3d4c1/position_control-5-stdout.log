@@ -1,0 +1,930 @@
+[32m[DEBUG] [1620754816.716291516]: Planning segment 0[0m
+[32m[DEBUG] [1620754816.716374067]: -- Start header: 
+  seq: 0
+  stamp: 0.000000000
+  frame_id: 
+child_frame_id: 
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 3
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 0
+[0m
+[32m[DEBUG] [1620754816.716391556]: -- End header: 
+  seq: 0
+  stamp: 0.000000000
+  frame_id: 
+child_frame_id: 
+transform: 
+  translation: 
+    x: 7.149
+    y: 5.829
+    z: 3
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 0
+[0m
+[32m[DEBUG] [1620754816.716481127]: ---- Starting A*[0m
+[32m[DEBUG] [1620754816.716490689]: ---- Initializing map[0m
+[32m[DEBUG] [1620754816.717184195]: Before initializing start:
+----------
+Node: 
+	ID: (1,1)
+	Cost: 
+		G: 340282346638528859811704183484516925440.000000
+		H:340282346638528859811704183484516925440.000000
+		F:340282346638528859811704183484516925440.000000
+----------[0m
+[32m[DEBUG] [1620754816.717195152]: Initializing start point: 
+----------
+Node: 
+	ID: (0,0)
+	Cost: 
+		G: 0.000000
+		H:0.000000
+		F:0.000000
+----------[0m
+[32m[DEBUG] [1620754816.717203641]: Done Initializing start point: 
+----------
+Node: 
+	ID: (0,0)
+	Cost: 
+		G: 0.000000
+		H:0.000000
+		F:0.000000
+----------[0m
+[32m[DEBUG] [1620754816.717218908]: After initializing start:
+----------
+Node: 
+	ID: (1,1)
+	Cost: 
+		G: 340282346638528859811704183484516925440.000000
+		H:340282346638528859811704183484516925440.000000
+		F:340282346638528859811704183484516925440.000000
+----------[0m
+[32m[DEBUG] [1620754816.717239548]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.717332070]: ---- Neighbour node is valid (0,1):92.0494 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717339183]: ---- Adding node 0,1 to open list[0m
+[32m[DEBUG] [1620754816.717354826]: ---- Neighbour node is valid (1,0):91.9065 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717360242]: ---- Adding node 1,0 to open list[0m
+[32m[DEBUG] [1620754816.717374310]: ---- Neighbour node is valid (1,1):91.2718 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717379621]: ---- Adding node 1,1 to open list[0m
+[32m[DEBUG] [1620754816.717384488]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.717401287]: ---- Neighbour node is valid (0,1):93.0494 vs 92.0494[0m
+[32m[DEBUG] [1620754816.717411798]: ---- Neighbour node is valid (0,2):92.4268 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717417009]: ---- Adding node 0,2 to open list[0m
+[32m[DEBUG] [1620754816.717428769]: ---- Neighbour node is valid (1,0):92.9065 vs 91.9065[0m
+[32m[DEBUG] [1620754816.717441862]: ---- Neighbour node is valid (1,2):91.6437 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717446879]: ---- Adding node 1,2 to open list[0m
+[32m[DEBUG] [1620754816.717456557]: ---- Neighbour node is valid (2,0):92.1388 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717461624]: ---- Adding node 2,0 to open list[0m
+[32m[DEBUG] [1620754816.717472005]: ---- Neighbour node is valid (2,1):91.4986 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717478959]: ---- Adding node 2,1 to open list[0m
+[32m[DEBUG] [1620754816.717488896]: ---- Neighbour node is valid (2,2):90.8651 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717493955]: ---- Adding node 2,2 to open list[0m
+[32m[DEBUG] [1620754816.717498316]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.717514229]: ---- Neighbour node is valid (1,2):92.6437 vs 91.6437[0m
+[32m[DEBUG] [1620754816.717524374]: ---- Neighbour node is valid (1,3):92.0225 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717529479]: ---- Adding node 1,3 to open list[0m
+[32m[DEBUG] [1620754816.717542590]: ---- Neighbour node is valid (2,1):92.4986 vs 91.4986[0m
+[32m[DEBUG] [1620754816.717555784]: ---- Neighbour node is valid (2,3):91.2383 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717560999]: ---- Adding node 2,3 to open list[0m
+[32m[DEBUG] [1620754816.717570819]: ---- Neighbour node is valid (3,1):91.7299 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717575843]: ---- Adding node 3,1 to open list[0m
+[32m[DEBUG] [1620754816.717586110]: ---- Neighbour node is valid (3,2):91.0909 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717614321]: ---- Adding node 3,2 to open list[0m
+[32m[DEBUG] [1620754816.717626236]: ---- Neighbour node is valid (3,3):90.4586 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717631306]: ---- Adding node 3,3 to open list[0m
+[32m[DEBUG] [1620754816.717635660]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.717651904]: ---- Neighbour node is valid (2,3):92.2383 vs 91.2383[0m
+[32m[DEBUG] [1620754816.717662125]: ---- Neighbour node is valid (2,4):91.6185 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717667114]: ---- Adding node 2,4 to open list[0m
+[32m[DEBUG] [1620754816.717679181]: ---- Neighbour node is valid (3,2):92.0909 vs 91.0909[0m
+[32m[DEBUG] [1620754816.717692108]: ---- Neighbour node is valid (3,4):90.8332 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717697118]: ---- Adding node 3,4 to open list[0m
+[32m[DEBUG] [1620754816.717706906]: ---- Neighbour node is valid (4,2):91.3212 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717711834]: ---- Adding node 4,2 to open list[0m
+[32m[DEBUG] [1620754816.717721538]: ---- Neighbour node is valid (4,3):90.6833 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717739382]: ---- Adding node 4,3 to open list[0m
+[32m[DEBUG] [1620754816.717749669]: ---- Neighbour node is valid (4,4):90.0523 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717754729]: ---- Adding node 4,4 to open list[0m
+[32m[DEBUG] [1620754816.717759061]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.717784462]: ---- Neighbour node is valid (3,4):91.8332 vs 90.8332[0m
+[32m[DEBUG] [1620754816.717794580]: ---- Neighbour node is valid (3,5):91.2149 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717799571]: ---- Adding node 3,5 to open list[0m
+[32m[DEBUG] [1620754816.717820761]: ---- Neighbour node is valid (4,3):91.6833 vs 90.6833[0m
+[32m[DEBUG] [1620754816.717834734]: ---- Neighbour node is valid (4,5):90.4283 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717840284]: ---- Adding node 4,5 to open list[0m
+[32m[DEBUG] [1620754816.717850830]: ---- Neighbour node is valid (5,3):90.9128 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717856145]: ---- Adding node 5,3 to open list[0m
+[32m[DEBUG] [1620754816.717867564]: ---- Neighbour node is valid (5,4):90.276 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717875903]: ---- Adding node 5,4 to open list[0m
+[32m[DEBUG] [1620754816.717886767]: ---- Neighbour node is valid (5,5):89.6463 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717892305]: ---- Adding node 5,5 to open list[0m
+[32m[DEBUG] [1620754816.717897217]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.717913975]: ---- Neighbour node is valid (4,5):91.4283 vs 90.4283[0m
+[32m[DEBUG] [1620754816.717926222]: ---- Neighbour node is valid (4,6):90.8116 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717932161]: ---- Adding node 4,6 to open list[0m
+[32m[DEBUG] [1620754816.717942597]: ---- Neighbour node is valid (5,4):91.276 vs 90.276[0m
+[32m[DEBUG] [1620754816.717956195]: ---- Neighbour node is valid (5,6):90.0238 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717961721]: ---- Adding node 5,6 to open list[0m
+[32m[DEBUG] [1620754816.717972233]: ---- Neighbour node is valid (6,4):90.5044 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.717977638]: ---- Adding node 6,4 to open list[0m
+[32m[DEBUG] [1620754816.717989972]: ---- Neighbour node is valid (6,5):89.8689 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.718006044]: ---- Adding node 6,5 to open list[0m
+[32m[DEBUG] [1620754816.737634708]: ---- Neighbour node is valid (6,6):89.2406 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.737696870]: ---- Adding node 6,6 to open list[0m
+[32m[DEBUG] [1620754816.737728249]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.737777957]: ---- Neighbour node is valid (5,6):91.0238 vs 90.0238[0m
+[32m[DEBUG] [1620754816.737812854]: ---- Neighbour node is valid (5,7):90.4086 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.737838508]: ---- Adding node 5,7 to open list[0m
+[32m[DEBUG] [1620754816.737868665]: ---- Neighbour node is valid (6,5):90.8689 vs 89.8689[0m
+[32m[DEBUG] [1620754816.737929762]: ---- Neighbour node is valid (6,7):89.6196 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.737954944]: ---- Adding node 6,7 to open list[0m
+[32m[DEBUG] [1620754816.737985452]: ---- Neighbour node is valid (7,5):90.0963 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738010008]: ---- Adding node 7,5 to open list[0m
+[32m[DEBUG] [1620754816.738039655]: ---- Neighbour node is valid (7,6):89.4621 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738064405]: ---- Adding node 7,6 to open list[0m
+[32m[DEBUG] [1620754816.738094030]: ---- Neighbour node is valid (7,7):88.8352 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738117733]: ---- Adding node 7,7 to open list[0m
+[32m[DEBUG] [1620754816.738139685]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.738175710]: ---- Neighbour node is valid (6,7):90.6196 vs 89.6196[0m
+[32m[DEBUG] [1620754816.738206486]: ---- Neighbour node is valid (6,8):90.0061 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738230193]: ---- Adding node 6,8 to open list[0m
+[32m[DEBUG] [1620754816.738259166]: ---- Neighbour node is valid (7,6):90.4621 vs 89.4621[0m
+[32m[DEBUG] [1620754816.738292389]: ---- Neighbour node is valid (7,8):89.2158 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738316128]: ---- Adding node 7,8 to open list[0m
+[32m[DEBUG] [1620754816.738345463]: ---- Neighbour node is valid (8,6):89.6884 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738369004]: ---- Adding node 8,6 to open list[0m
+[32m[DEBUG] [1620754816.738397833]: ---- Neighbour node is valid (8,7):89.0555 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738421402]: ---- Adding node 8,7 to open list[0m
+[32m[DEBUG] [1620754816.738450287]: ---- Neighbour node is valid (8,8):88.4301 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738473849]: ---- Adding node 8,8 to open list[0m
+[32m[DEBUG] [1620754816.738495450]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.738530710]: ---- Neighbour node is valid (7,8):90.2158 vs 89.2158[0m
+[32m[DEBUG] [1620754816.738561005]: ---- Neighbour node is valid (7,9):89.604 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738683399]: ---- Adding node 7,9 to open list[0m
+[32m[DEBUG] [1620754816.738717820]: ---- Neighbour node is valid (8,7):90.0555 vs 89.0555[0m
+[32m[DEBUG] [1620754816.738752500]: ---- Neighbour node is valid (8,9):88.8123 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738776786]: ---- Adding node 8,9 to open list[0m
+[32m[DEBUG] [1620754816.738806784]: ---- Neighbour node is valid (9,7):89.2808 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738830571]: ---- Adding node 9,7 to open list[0m
+[32m[DEBUG] [1620754816.738862444]: ---- Neighbour node is valid (9,8):88.6492 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738887124]: ---- Adding node 9,8 to open list[0m
+[32m[DEBUG] [1620754816.738916549]: ---- Neighbour node is valid (9,9):88.0253 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.738940526]: ---- Adding node 9,9 to open list[0m
+[32m[DEBUG] [1620754816.738962468]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.738998354]: ---- Neighbour node is valid (8,9):89.8123 vs 88.8123[0m
+[32m[DEBUG] [1620754816.739029070]: ---- Neighbour node is valid (8,10):89.2023 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.739053015]: ---- Adding node 8,10 to open list[0m
+[32m[DEBUG] [1620754816.739081934]: ---- Neighbour node is valid (9,8):89.6492 vs 88.6492[0m
+[32m[DEBUG] [1620754816.739115457]: ---- Neighbour node is valid (9,10):88.4092 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.739140082]: ---- Adding node 9,10 to open list[0m
+[32m[DEBUG] [1620754816.739169652]: ---- Neighbour node is valid (10,8):88.8733 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.739193541]: ---- Adding node 10,8 to open list[0m
+[32m[DEBUG] [1620754816.739222204]: ---- Neighbour node is valid (10,9):88.2432 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.742178697]: ---- Adding node 10,9 to open list[0m
+[32m[DEBUG] [1620754816.742230019]: ---- Neighbour node is valid (10,10):87.6209 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.742257499]: ---- Adding node 10,10 to open list[0m
+[32m[DEBUG] [1620754816.742304975]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.742344759]: ---- Neighbour node is valid (9,10):89.4092 vs 88.4092[0m
+[32m[DEBUG] [1620754816.742376868]: ---- Neighbour node is valid (9,11):88.801 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.742400969]: ---- Adding node 9,11 to open list[0m
+[32m[DEBUG] [1620754816.748740053]: ---- Neighbour node is valid (10,9):89.2432 vs 88.2432[0m
+[32m[DEBUG] [1620754816.748792956]: ---- Neighbour node is valid (10,11):88.0065 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.748823185]: ---- Adding node 10,11 to open list[0m
+[32m[DEBUG] [1620754816.748858509]: ---- Neighbour node is valid (11,9):88.4661 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.748886624]: ---- Adding node 11,9 to open list[0m
+[32m[DEBUG] [1620754816.748920004]: ---- Neighbour node is valid (11,10):87.8375 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.748947131]: ---- Adding node 11,10 to open list[0m
+[32m[DEBUG] [1620754816.748980445]: ---- Neighbour node is valid (11,11):87.2168 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749010116]: ---- Adding node 11,11 to open list[0m
+[32m[DEBUG] [1620754816.749038049]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.749079925]: ---- Neighbour node is valid (10,11):89.0065 vs 88.0065[0m
+[32m[DEBUG] [1620754816.749115169]: ---- Neighbour node is valid (10,12):88.4003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749142093]: ---- Adding node 10,12 to open list[0m
+[32m[DEBUG] [1620754816.749174587]: ---- Neighbour node is valid (11,10):88.8375 vs 87.8375[0m
+[32m[DEBUG] [1620754816.749211853]: ---- Neighbour node is valid (11,12):87.6042 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749238684]: ---- Adding node 11,12 to open list[0m
+[32m[DEBUG] [1620754816.749271564]: ---- Neighbour node is valid (12,10):88.0592 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749298265]: ---- Adding node 12,10 to open list[0m
+[32m[DEBUG] [1620754816.749331106]: ---- Neighbour node is valid (12,11):87.4321 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749357423]: ---- Adding node 12,11 to open list[0m
+[32m[DEBUG] [1620754816.749390094]: ---- Neighbour node is valid (12,12):86.8131 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749416420]: ---- Adding node 12,12 to open list[0m
+[32m[DEBUG] [1620754816.749440853]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.749481380]: ---- Neighbour node is valid (11,12):88.6042 vs 87.6042[0m
+[32m[DEBUG] [1620754816.749515780]: ---- Neighbour node is valid (11,13):88 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749542662]: ---- Adding node 11,13 to open list[0m
+[32m[DEBUG] [1620754816.749575137]: ---- Neighbour node is valid (12,11):88.4321 vs 87.4321[0m
+[32m[DEBUG] [1620754816.749612866]: ---- Neighbour node is valid (12,13):87.2024 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749639370]: ---- Adding node 12,13 to open list[0m
+[32m[DEBUG] [1620754816.749678376]: ---- Neighbour node is valid (13,11):87.6525 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749701562]: ---- Adding node 13,11 to open list[0m
+[32m[DEBUG] [1620754816.749730168]: ---- Neighbour node is valid (13,12):87.027 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749753298]: ---- Adding node 13,12 to open list[0m
+[32m[DEBUG] [1620754816.749782082]: ---- Neighbour node is valid (13,13):86.4098 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749805136]: ---- Adding node 13,13 to open list[0m
+[32m[DEBUG] [1620754816.749826669]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.749861869]: ---- Neighbour node is valid (12,13):88.2024 vs 87.2024[0m
+[32m[DEBUG] [1620754816.749891965]: ---- Neighbour node is valid (12,14):87.6003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749915336]: ---- Adding node 12,14 to open list[0m
+[32m[DEBUG] [1620754816.749943829]: ---- Neighbour node is valid (13,12):88.027 vs 87.027[0m
+[32m[DEBUG] [1620754816.749976225]: ---- Neighbour node is valid (13,14):86.8011 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.749999578]: ---- Adding node 13,14 to open list[0m
+[32m[DEBUG] [1620754816.750046798]: ---- Neighbour node is valid (14,12):87.2462 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.750071131]: ---- Adding node 14,12 to open list[0m
+[32m[DEBUG] [1620754816.750100565]: ---- Neighbour node is valid (14,13):86.6223 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.750124223]: ---- Adding node 14,13 to open list[0m
+[32m[DEBUG] [1620754816.750164429]: ---- Neighbour node is valid (14,14):86.0069 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.750197517]: ---- Adding node 14,14 to open list[0m
+[32m[DEBUG] [1620754816.750219584]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.750255209]: ---- Neighbour node is valid (13,14):87.8011 vs 86.8011[0m
+[32m[DEBUG] [1620754816.758506715]: ---- Neighbour node is valid (13,15):87.2011 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.758541884]: ---- Adding node 13,15 to open list[0m
+[32m[DEBUG] [1620754816.758575830]: ---- Neighbour node is valid (14,13):87.6223 vs 86.6223[0m
+[32m[DEBUG] [1620754816.758612081]: ---- Neighbour node is valid (14,15):86.4003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.758684285]: ---- Adding node 14,15 to open list[0m
+[32m[DEBUG] [1620754816.758722972]: ---- Neighbour node is valid (15,13):86.8401 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.758748323]: ---- Adding node 15,13 to open list[0m
+[32m[DEBUG] [1620754816.758779285]: ---- Neighbour node is valid (15,14):86.218 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.758803587]: ---- Adding node 15,14 to open list[0m
+[32m[DEBUG] [1620754816.758833169]: ---- Neighbour node is valid (15,15):85.6045 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.758856760]: ---- Adding node 15,15 to open list[0m
+[32m[DEBUG] [1620754816.758879409]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.758916968]: ---- Neighbour node is valid (14,15):87.4003 vs 86.4003[0m
+[32m[DEBUG] [1620754816.758947978]: ---- Neighbour node is valid (14,16):86.8025 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.758971935]: ---- Adding node 14,16 to open list[0m
+[32m[DEBUG] [1620754816.759000942]: ---- Neighbour node is valid (15,14):87.218 vs 86.218[0m
+[32m[DEBUG] [1620754816.759034073]: ---- Neighbour node is valid (15,16):86 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759058490]: ---- Adding node 15,16 to open list[0m
+[32m[DEBUG] [1620754816.759088443]: ---- Neighbour node is valid (16,14):86.4344 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759111931]: ---- Adding node 16,14 to open list[0m
+[32m[DEBUG] [1620754816.759140964]: ---- Neighbour node is valid (16,15):85.814 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759164456]: ---- Adding node 16,15 to open list[0m
+[32m[DEBUG] [1620754816.759193200]: ---- Neighbour node is valid (16,16):85.2026 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759216469]: ---- Adding node 16,16 to open list[0m
+[32m[DEBUG] [1620754816.759238008]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.759273179]: ---- Neighbour node is valid (15,16):87 vs 86[0m
+[32m[DEBUG] [1620754816.759303900]: ---- Neighbour node is valid (15,17):86.4046 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759327594]: ---- Adding node 15,17 to open list[0m
+[32m[DEBUG] [1620754816.759367207]: ---- Neighbour node is valid (16,15):86.814 vs 85.814[0m
+[32m[DEBUG] [1620754816.759410742]: ---- Neighbour node is valid (16,17):85.6003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759434376]: ---- Adding node 16,17 to open list[0m
+[32m[DEBUG] [1620754816.759463896]: ---- Neighbour node is valid (17,15):86.029 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759487395]: ---- Adding node 17,15 to open list[0m
+[32m[DEBUG] [1620754816.759520832]: ---- Neighbour node is valid (17,16):85.4105 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759545770]: ---- Adding node 17,16 to open list[0m
+[32m[DEBUG] [1620754816.759575322]: ---- Neighbour node is valid (17,17):84.8012 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759599379]: ---- Adding node 17,17 to open list[0m
+[32m[DEBUG] [1620754816.759621159]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.759678719]: ---- Neighbour node is valid (16,17):86.6003 vs 85.6003[0m
+[32m[DEBUG] [1620754816.759710197]: ---- Neighbour node is valid (16,18):86.0074 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759733697]: ---- Adding node 16,18 to open list[0m
+[32m[DEBUG] [1620754816.759762567]: ---- Neighbour node is valid (17,16):86.4105 vs 85.4105[0m
+[32m[DEBUG] [1620754816.759795912]: ---- Neighbour node is valid (17,18):85.2012 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.759819584]: ---- Adding node 17,18 to open list[0m
+[32m[DEBUG] [1620754816.759848978]: ---- Neighbour node is valid (18,16):85.624 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.767632608]: ---- Adding node 18,16 to open list[0m
+[32m[DEBUG] [1620754816.767694498]: ---- Neighbour node is valid (18,17):85.0075 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.767723171]: ---- Adding node 18,17 to open list[0m
+[32m[DEBUG] [1620754816.767755418]: ---- Neighbour node is valid (18,18):84.4003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.767780386]: ---- Adding node 18,18 to open list[0m
+[32m[DEBUG] [1620754816.767803073]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.767841433]: ---- Neighbour node is valid (17,18):86.2012 vs 85.2012[0m
+[32m[DEBUG] [1620754816.767873615]: ---- Neighbour node is valid (17,19):85.6108 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.767897821]: ---- Adding node 17,19 to open list[0m
+[32m[DEBUG] [1620754816.767927318]: ---- Neighbour node is valid (18,17):86.0075 vs 85.0075[0m
+[32m[DEBUG] [1620754816.767961142]: ---- Neighbour node is valid (18,19):84.8027 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.767984959]: ---- Adding node 18,19 to open list[0m
+[32m[DEBUG] [1620754816.768014627]: ---- Neighbour node is valid (19,17):85.2193 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768038491]: ---- Adding node 19,17 to open list[0m
+[32m[DEBUG] [1620754816.768067884]: ---- Neighbour node is valid (19,18):84.6049 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768091856]: ---- Adding node 19,18 to open list[0m
+[32m[DEBUG] [1620754816.768120922]: ---- Neighbour node is valid (19,19):84 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768144739]: ---- Adding node 19,19 to open list[0m
+[32m[DEBUG] [1620754816.768166561]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.768202811]: ---- Neighbour node is valid (18,19):85.8027 vs 84.8027[0m
+[32m[DEBUG] [1620754816.768233600]: ---- Neighbour node is valid (18,20):85.215 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768257463]: ---- Adding node 18,20 to open list[0m
+[32m[DEBUG] [1620754816.768286875]: ---- Neighbour node is valid (19,18):85.6049 vs 84.6049[0m
+[32m[DEBUG] [1620754816.768320556]: ---- Neighbour node is valid (19,20):84.405 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768344449]: ---- Adding node 19,20 to open list[0m
+[32m[DEBUG] [1620754816.768373644]: ---- Neighbour node is valid (20,18):84.8151 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768397381]: ---- Adding node 20,18 to open list[0m
+[32m[DEBUG] [1620754816.768426243]: ---- Neighbour node is valid (20,19):84.2028 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768450050]: ---- Adding node 20,19 to open list[0m
+[32m[DEBUG] [1620754816.768480161]: ---- Neighbour node is valid (20,20):83.6003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768504074]: ---- Adding node 20,20 to open list[0m
+[32m[DEBUG] [1620754816.768525990]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.768562123]: ---- Neighbour node is valid (19,20):85.405 vs 84.405[0m
+[32m[DEBUG] [1620754816.768593134]: ---- Neighbour node is valid (19,21):84.8201 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768617182]: ---- Adding node 19,21 to open list[0m
+[32m[DEBUG] [1620754816.768720310]: ---- Neighbour node is valid (20,19):85.2028 vs 84.2028[0m
+[32m[DEBUG] [1620754816.768777324]: ---- Neighbour node is valid (20,21):84.0079 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768802642]: ---- Adding node 20,21 to open list[0m
+[32m[DEBUG] [1620754816.768832588]: ---- Neighbour node is valid (21,19):84.4114 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768875438]: ---- Adding node 21,19 to open list[0m
+[32m[DEBUG] [1620754816.768906830]: ---- Neighbour node is valid (21,20):83.8013 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768931109]: ---- Adding node 21,20 to open list[0m
+[32m[DEBUG] [1620754816.768960369]: ---- Neighbour node is valid (21,21):83.2013 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.768984366]: ---- Adding node 21,21 to open list[0m
+[32m[DEBUG] [1620754816.769006394]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.769042931]: ---- Neighbour node is valid (20,21):85.0079 vs 84.0079[0m
+[32m[DEBUG] [1620754816.769074190]: ---- Neighbour node is valid (20,22):84.426 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.769098164]: ---- Adding node 20,22 to open list[0m
+[32m[DEBUG] [1620754816.769127136]: ---- Neighbour node is valid (21,20):84.8013 vs 83.8013[0m
+[32m[DEBUG] [1620754816.777818573]: ---- Neighbour node is valid (21,22):83.6117 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.777853144]: ---- Adding node 21,22 to open list[0m
+[32m[DEBUG] [1620754816.777887127]: ---- Neighbour node is valid (22,20):84.0081 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.777913222]: ---- Adding node 22,20 to open list[0m
+[32m[DEBUG] [1620754816.777966753]: ---- Neighbour node is valid (22,21):83.4003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778010322]: ---- Adding node 22,21 to open list[0m
+[32m[DEBUG] [1620754816.778040155]: ---- Neighbour node is valid (22,22):82.803 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778064138]: ---- Adding node 22,22 to open list[0m
+[32m[DEBUG] [1620754816.778086040]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.778123745]: ---- Neighbour node is valid (21,22):84.6117 vs 83.6117[0m
+[32m[DEBUG] [1620754816.778155180]: ---- Neighbour node is valid (21,23):84.0328 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778178870]: ---- Adding node 21,23 to open list[0m
+[32m[DEBUG] [1620754816.778207836]: ---- Neighbour node is valid (22,21):84.4003 vs 83.4003[0m
+[32m[DEBUG] [1620754816.778240954]: ---- Neighbour node is valid (22,23):83.2163 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778264450]: ---- Adding node 22,23 to open list[0m
+[32m[DEBUG] [1620754816.778294273]: ---- Neighbour node is valid (23,21):83.6053 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778317793]: ---- Adding node 23,21 to open list[0m
+[32m[DEBUG] [1620754816.778346907]: ---- Neighbour node is valid (23,22):83 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778370303]: ---- Adding node 23,22 to open list[0m
+[32m[DEBUG] [1620754816.778399059]: ---- Neighbour node is valid (23,23):82.4054 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778422528]: ---- Adding node 23,23 to open list[0m
+[32m[DEBUG] [1620754816.778444220]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.778480293]: ---- Neighbour node is valid (22,23):84.2163 vs 83.2163[0m
+[32m[DEBUG] [1620754816.778511134]: ---- Neighbour node is valid (22,24):83.6406 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778534669]: ---- Adding node 22,24 to open list[0m
+[32m[DEBUG] [1620754816.778562768]: ---- Neighbour node is valid (23,22):84 vs 83[0m
+[32m[DEBUG] [1620754816.778595817]: ---- Neighbour node is valid (23,24):82.8218 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778619090]: ---- Adding node 23,24 to open list[0m
+[32m[DEBUG] [1620754816.778647976]: ---- Neighbour node is valid (24,22):83.203 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778671539]: ---- Adding node 24,22 to open list[0m
+[32m[DEBUG] [1620754816.778700279]: ---- Neighbour node is valid (24,23):82.6003 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778723747]: ---- Adding node 24,23 to open list[0m
+[32m[DEBUG] [1620754816.778752413]: ---- Neighbour node is valid (24,24):82.0086 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778775757]: ---- Adding node 24,24 to open list[0m
+[32m[DEBUG] [1620754816.778797208]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.778833124]: ---- Neighbour node is valid (23,24):83.8218 vs 82.8218[0m
+[32m[DEBUG] [1620754816.778883731]: ---- Neighbour node is valid (23,25):83.2495 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778908227]: ---- Adding node 23,25 to open list[0m
+[32m[DEBUG] [1620754816.778937244]: ---- Neighbour node is valid (24,23):83.6003 vs 82.6003[0m
+[32m[DEBUG] [1620754816.778970889]: ---- Neighbour node is valid (24,25):82.4282 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.778994488]: ---- Adding node 24,25 to open list[0m
+[32m[DEBUG] [1620754816.779023897]: ---- Neighbour node is valid (25,23):82.8014 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.779047509]: ---- Adding node 25,23 to open list[0m
+[32m[DEBUG] [1620754816.779076036]: ---- Neighbour node is valid (25,24):82.2014 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.779110294]: ---- Adding node 25,24 to open list[0m
+[32m[DEBUG] [1620754816.779148624]: ---- Neighbour node is valid (25,25):81.6127 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.779172022]: ---- Adding node 25,25 to open list[0m
+[32m[DEBUG] [1620754816.779193491]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.779229679]: ---- Neighbour node is valid (24,25):83.4282 vs 82.4282[0m
+[32m[DEBUG] [1620754816.779260320]: ---- Neighbour node is valid (24,26):82.8595 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.779283716]: ---- Adding node 24,26 to open list[0m
+[32m[DEBUG] [1620754816.779312291]: ---- Neighbour node is valid (25,24):83.2014 vs 82.2014[0m
+[32m[DEBUG] [1620754816.779345606]: ---- Neighbour node is valid (25,26):82.0357 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.779369151]: ---- Adding node 25,26 to open list[0m
+[32m[DEBUG] [1620754816.779398265]: ---- Neighbour node is valid (26,24):82.4004 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782248408]: ---- Adding node 26,24 to open list[0m
+[32m[DEBUG] [1620754816.782291839]: ---- Neighbour node is valid (26,25):81.8032 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782320526]: ---- Adding node 26,25 to open list[0m
+[32m[DEBUG] [1620754816.782354327]: ---- Neighbour node is valid (26,26):81.2178 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782381183]: ---- Adding node 26,26 to open list[0m
+[32m[DEBUG] [1620754816.782406080]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.782447850]: ---- Neighbour node is valid (25,26):83.0357 vs 82.0357[0m
+[32m[DEBUG] [1620754816.782482838]: ---- Neighbour node is valid (25,27):82.4707 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782509680]: ---- Adding node 25,27 to open list[0m
+[32m[DEBUG] [1620754816.782588014]: ---- Neighbour node is valid (26,25):82.8032 vs 81.8032[0m
+[32m[DEBUG] [1620754816.782639694]: ---- Neighbour node is valid (26,27):81.6443 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782667972]: ---- Adding node 26,27 to open list[0m
+[32m[DEBUG] [1620754816.782701428]: ---- Neighbour node is valid (27,25):82 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782728811]: ---- Adding node 27,25 to open list[0m
+[32m[DEBUG] [1620754816.782762010]: ---- Neighbour node is valid (27,26):81.4059 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782789059]: ---- Adding node 27,26 to open list[0m
+[32m[DEBUG] [1620754816.782822207]: ---- Neighbour node is valid (27,27):80.8238 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782849005]: ---- Adding node 27,27 to open list[0m
+[32m[DEBUG] [1620754816.782873909]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.782915477]: ---- Neighbour node is valid (26,27):82.6443 vs 81.6443[0m
+[32m[DEBUG] [1620754816.782950422]: ---- Neighbour node is valid (26,28):82.0833 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.782977207]: ---- Adding node 26,28 to open list[0m
+[32m[DEBUG] [1620754816.783009671]: ---- Neighbour node is valid (27,26):82.4059 vs 81.4059[0m
+[32m[DEBUG] [1620754816.783047097]: ---- Neighbour node is valid (27,28):81.2541 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783074146]: ---- Adding node 27,28 to open list[0m
+[32m[DEBUG] [1620754816.783107503]: ---- Neighbour node is valid (28,26):81.6004 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783134434]: ---- Adding node 28,26 to open list[0m
+[32m[DEBUG] [1620754816.783193397]: ---- Neighbour node is valid (28,27):81.0094 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783217803]: ---- Adding node 28,27 to open list[0m
+[32m[DEBUG] [1620754816.783246596]: ---- Neighbour node is valid (28,28):80.4309 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783270764]: ---- Adding node 28,28 to open list[0m
+[32m[DEBUG] [1620754816.783292541]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.783328847]: ---- Neighbour node is valid (27,28):82.2541 vs 81.2541[0m
+[32m[DEBUG] [1620754816.783359706]: ---- Neighbour node is valid (27,29):81.6973 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783383399]: ---- Adding node 27,29 to open list[0m
+[32m[DEBUG] [1620754816.783411849]: ---- Neighbour node is valid (28,27):82.0094 vs 81.0094[0m
+[32m[DEBUG] [1620754816.783444742]: ---- Neighbour node is valid (28,29):80.8652 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783468143]: ---- Adding node 28,29 to open list[0m
+[32m[DEBUG] [1620754816.783497338]: ---- Neighbour node is valid (29,27):81.2015 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783520634]: ---- Adding node 29,27 to open list[0m
+[32m[DEBUG] [1620754816.783549378]: ---- Neighbour node is valid (29,28):80.614 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783572634]: ---- Adding node 29,28 to open list[0m
+[32m[DEBUG] [1620754816.783601022]: ---- Neighbour node is valid (29,29):80.0392 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783624198]: ---- Adding node 29,29 to open list[0m
+[32m[DEBUG] [1620754816.783645508]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.783681311]: ---- Neighbour node is valid (28,29):81.8652 vs 80.8652[0m
+[32m[DEBUG] [1620754816.783722445]: ---- Neighbour node is valid (28,30):81.3128 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783755557]: ---- Adding node 28,30 to open list[0m
+[32m[DEBUG] [1620754816.783783912]: ---- Neighbour node is valid (29,28):81.614 vs 80.614[0m
+[32m[DEBUG] [1620754816.783816592]: ---- Neighbour node is valid (29,30):80.4777 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783840038]: ---- Adding node 29,30 to open list[0m
+[32m[DEBUG] [1620754816.783869156]: ---- Neighbour node is valid (30,28):80.8035 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783893130]: ---- Adding node 30,28 to open list[0m
+[32m[DEBUG] [1620754816.783922055]: ---- Neighbour node is valid (30,29):80.2195 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783945672]: ---- Adding node 30,29 to open list[0m
+[32m[DEBUG] [1620754816.783974607]: ---- Neighbour node is valid (30,30):79.6488 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.783998302]: ---- Adding node 30,30 to open list[0m
+[32m[DEBUG] [1620754816.784019749]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.784055855]: ---- Neighbour node is valid (29,30):81.4777 vs 80.4777[0m
+[32m[DEBUG] [1620754816.784086382]: ---- Neighbour node is valid (29,31):80.93 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784109957]: ---- Adding node 29,31 to open list[0m
+[32m[DEBUG] [1620754816.784138753]: ---- Neighbour node is valid (30,29):81.2195 vs 80.2195[0m
+[32m[DEBUG] [1620754816.784171900]: ---- Neighbour node is valid (30,31):80.0918 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784195829]: ---- Adding node 30,31 to open list[0m
+[32m[DEBUG] [1620754816.784225224]: ---- Neighbour node is valid (31,29):80.4065 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784248776]: ---- Adding node 31,29 to open list[0m
+[32m[DEBUG] [1620754816.784277602]: ---- Neighbour node is valid (31,30):79.8262 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784301094]: ---- Adding node 31,30 to open list[0m
+[32m[DEBUG] [1620754816.784329839]: ---- Neighbour node is valid (31,31):79.2597 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784353256]: ---- Adding node 31,31 to open list[0m
+[32m[DEBUG] [1620754816.784374708]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.784410659]: ---- Neighbour node is valid (30,31):81.0918 vs 80.0918[0m
+[32m[DEBUG] [1620754816.784441721]: ---- Neighbour node is valid (30,32):80.5489 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784474648]: ---- Adding node 30,32 to open list[0m
+[32m[DEBUG] [1620754816.784504977]: ---- Neighbour node is valid (31,30):80.8262 vs 79.8262[0m
+[32m[DEBUG] [1620754816.784538363]: ---- Neighbour node is valid (31,32):79.7074 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784561682]: ---- Adding node 31,32 to open list[0m
+[32m[DEBUG] [1620754816.784590956]: ---- Neighbour node is valid (32,30):80.0104 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784614466]: ---- Adding node 32,30 to open list[0m
+[32m[DEBUG] [1620754816.784643097]: ---- Neighbour node is valid (32,31):79.4342 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784666302]: ---- Adding node 32,31 to open list[0m
+[32m[DEBUG] [1620754816.784694871]: ---- Neighbour node is valid (32,32):78.8722 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784718024]: ---- Adding node 32,32 to open list[0m
+[32m[DEBUG] [1620754816.784739229]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.784775437]: ---- Neighbour node is valid (31,32):80.7074 vs 79.7074[0m
+[32m[DEBUG] [1620754816.784805880]: ---- Neighbour node is valid (31,33):80.1699 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784829212]: ---- Adding node 31,33 to open list[0m
+[32m[DEBUG] [1620754816.784868313]: ---- Neighbour node is valid (32,31):80.4342 vs 79.4342[0m
+[32m[DEBUG] [1620754816.784911172]: ---- Neighbour node is valid (32,33):79.3249 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.784934404]: ---- Adding node 32,33 to open list[0m
+[32m[DEBUG] [1620754816.784963585]: ---- Neighbour node is valid (33,31):79.6154 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.789585245]: ---- Adding node 33,31 to open list[0m
+[32m[DEBUG] [1620754816.789636721]: ---- Neighbour node is valid (33,32):79.0435 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.789665189]: ---- Adding node 33,32 to open list[0m
+[32m[DEBUG] [1620754816.789697242]: ---- Neighbour node is valid (33,33):78.4863 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.789722627]: ---- Adding node 33,33 to open list[0m
+[32m[DEBUG] [1620754816.789745116]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.789783905]: ---- Neighbour node is valid (32,33):80.3249 vs 79.3249[0m
+[32m[DEBUG] [1620754816.789815871]: ---- Neighbour node is valid (32,34):79.793 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.789840388]: ---- Adding node 32,34 to open list[0m
+[32m[DEBUG] [1620754816.789869624]: ---- Neighbour node is valid (33,32):80.0435 vs 79.0435[0m
+[32m[DEBUG] [1620754816.789903648]: ---- Neighbour node is valid (33,34):78.9444 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.789927735]: ---- Adding node 33,34 to open list[0m
+[32m[DEBUG] [1620754816.789957354]: ---- Neighbour node is valid (34,32):79.2217 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.789981194]: ---- Adding node 34,32 to open list[0m
+[32m[DEBUG] [1620754816.790010346]: ---- Neighbour node is valid (34,33):78.6542 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790033892]: ---- Adding node 34,33 to open list[0m
+[32m[DEBUG] [1620754816.790063019]: ---- Neighbour node is valid (34,34):78.1022 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790086517]: ---- Adding node 34,34 to open list[0m
+[32m[DEBUG] [1620754816.790108299]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.790145204]: ---- Neighbour node is valid (33,34):79.9444 vs 78.9444[0m
+[32m[DEBUG] [1620754816.790176324]: ---- Neighbour node is valid (33,35):79.4185 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790200170]: ---- Adding node 33,35 to open list[0m
+[32m[DEBUG] [1620754816.790229055]: ---- Neighbour node is valid (34,33):79.6542 vs 78.6542[0m
+[32m[DEBUG] [1620754816.790262587]: ---- Neighbour node is valid (34,35):78.566 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790286245]: ---- Adding node 34,35 to open list[0m
+[32m[DEBUG] [1620754816.790315600]: ---- Neighbour node is valid (35,33):78.8292 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790339351]: ---- Adding node 35,33 to open list[0m
+[32m[DEBUG] [1620754816.790368207]: ---- Neighbour node is valid (35,34):78.2666 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790407745]: ---- Adding node 35,34 to open list[0m
+[32m[DEBUG] [1620754816.790439059]: ---- Neighbour node is valid (35,35):77.72 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790463106]: ---- Adding node 35,35 to open list[0m
+[32m[DEBUG] [1620754816.790484900]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.790522460]: ---- Neighbour node is valid (34,35):79.566 vs 78.566[0m
+[32m[DEBUG] [1620754816.790553976]: ---- Neighbour node is valid (34,36):79.0465 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790577771]: ---- Adding node 34,36 to open list[0m
+[32m[DEBUG] [1620754816.790606595]: ---- Neighbour node is valid (35,34):79.2666 vs 78.2666[0m
+[32m[DEBUG] [1620754816.790650515]: ---- Neighbour node is valid (35,36):78.19 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790675073]: ---- Adding node 35,36 to open list[0m
+[32m[DEBUG] [1620754816.790713814]: ---- Neighbour node is valid (36,34):78.4382 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790737663]: ---- Adding node 36,34 to open list[0m
+[32m[DEBUG] [1620754816.790766787]: ---- Neighbour node is valid (36,35):77.8808 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790790482]: ---- Adding node 36,35 to open list[0m
+[32m[DEBUG] [1620754816.790819618]: ---- Neighbour node is valid (36,36):77.3401 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790843257]: ---- Adding node 36,36 to open list[0m
+[32m[DEBUG] [1620754816.790864866]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.790901134]: ---- Neighbour node is valid (35,36):79.19 vs 78.19[0m
+[32m[DEBUG] [1620754816.790932431]: ---- Neighbour node is valid (35,37):78.6773 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.790956119]: ---- Adding node 35,37 to open list[0m
+[32m[DEBUG] [1620754816.790984826]: ---- Neighbour node is valid (36,35):78.8808 vs 77.8808[0m
+[32m[DEBUG] [1620754816.791018020]: ---- Neighbour node is valid (36,37):77.8167 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.791041787]: ---- Adding node 36,37 to open list[0m
+[32m[DEBUG] [1620754816.791071090]: ---- Neighbour node is valid (37,35):78.0488 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.791094882]: ---- Adding node 37,35 to open list[0m
+[32m[DEBUG] [1620754816.791123552]: ---- Neighbour node is valid (37,36):77.4969 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.791147252]: ---- Adding node 37,36 to open list[0m
+[32m[DEBUG] [1620754816.791175876]: ---- Neighbour node is valid (37,37):76.9625 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.791199469]: ---- Adding node 37,37 to open list[0m
+[32m[DEBUG] [1620754816.791221052]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.791257138]: ---- Neighbour node is valid (36,37):78.8167 vs 77.8167[0m
+[32m[DEBUG] [1620754816.791287966]: ---- Neighbour node is valid (36,38):78.3113 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.791311577]: ---- Adding node 36,38 to open list[0m
+[32m[DEBUG] [1620754816.807725822]: ---- Neighbour node is valid (37,36):78.4969 vs 77.4969[0m
+[32m[DEBUG] [1620754816.807776519]: ---- Neighbour node is valid (37,38):77.4462 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.807804552]: ---- Adding node 37,38 to open list[0m
+[32m[DEBUG] [1620754816.807837534]: ---- Neighbour node is valid (38,36):77.6611 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.807862835]: ---- Adding node 38,36 to open list[0m
+[32m[DEBUG] [1620754816.807893202]: ---- Neighbour node is valid (38,37):77.1152 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.807917644]: ---- Adding node 38,37 to open list[0m
+[32m[DEBUG] [1620754816.807947385]: ---- Neighbour node is valid (38,38):76.5876 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.807981963]: ---- Adding node 38,38 to open list[0m
+[32m[DEBUG] [1620754816.808016359]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.808079335]: ---- Neighbour node is valid (37,38):78.4462 vs 77.4462[0m
+[32m[DEBUG] [1620754816.808111385]: ---- Neighbour node is valid (37,39):77.9487 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808135535]: ---- Adding node 37,39 to open list[0m
+[32m[DEBUG] [1620754816.808186714]: ---- Neighbour node is valid (38,37):78.1152 vs 77.1152[0m
+[32m[DEBUG] [1620754816.808221562]: ---- Neighbour node is valid (38,39):77.0789 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808245936]: ---- Adding node 38,39 to open list[0m
+[32m[DEBUG] [1620754816.808276555]: ---- Neighbour node is valid (39,37):77.2753 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808300942]: ---- Adding node 39,37 to open list[0m
+[32m[DEBUG] [1620754816.808331311]: ---- Neighbour node is valid (39,38):76.7359 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808355163]: ---- Adding node 39,38 to open list[0m
+[32m[DEBUG] [1620754816.808384340]: ---- Neighbour node is valid (39,39):76.2156 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808408121]: ---- Adding node 39,39 to open list[0m
+[32m[DEBUG] [1620754816.808430013]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.808467522]: ---- Neighbour node is valid (38,39):78.0789 vs 77.0789[0m
+[32m[DEBUG] [1620754816.808499142]: ---- Neighbour node is valid (38,40):77.5899 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808523385]: ---- Adding node 38,40 to open list[0m
+[32m[DEBUG] [1620754816.808552675]: ---- Neighbour node is valid (39,38):77.7359 vs 76.7359[0m
+[32m[DEBUG] [1620754816.808586191]: ---- Neighbour node is valid (39,40):76.7151 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808609846]: ---- Adding node 39,40 to open list[0m
+[32m[DEBUG] [1620754816.808639585]: ---- Neighbour node is valid (40,38):76.8917 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808663440]: ---- Adding node 40,38 to open list[0m
+[32m[DEBUG] [1620754816.808692801]: ---- Neighbour node is valid (40,39):76.3593 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808716504]: ---- Adding node 40,39 to open list[0m
+[32m[DEBUG] [1620754816.808745987]: ---- Neighbour node is valid (40,40):75.8469 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808769670]: ---- Adding node 40,40 to open list[0m
+[32m[DEBUG] [1620754816.808791127]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.808827620]: ---- Neighbour node is valid (39,40):77.7151 vs 76.7151[0m
+[32m[DEBUG] [1620754816.808858579]: ---- Neighbour node is valid (39,41):77.2353 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808882196]: ---- Adding node 39,41 to open list[0m
+[32m[DEBUG] [1620754816.808911405]: ---- Neighbour node is valid (40,39):77.3593 vs 76.3593[0m
+[32m[DEBUG] [1620754816.808944960]: ---- Neighbour node is valid (40,41):76.3553 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.808968784]: ---- Adding node 40,41 to open list[0m
+[32m[DEBUG] [1620754816.808998490]: ---- Neighbour node is valid (41,39):76.5106 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809022213]: ---- Adding node 41,39 to open list[0m
+[32m[DEBUG] [1620754816.809051529]: ---- Neighbour node is valid (41,40):75.9857 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809075124]: ---- Adding node 41,40 to open list[0m
+[32m[DEBUG] [1620754816.809104201]: ---- Neighbour node is valid (41,41):75.4819 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809127852]: ---- Adding node 41,41 to open list[0m
+[32m[DEBUG] [1620754816.809160319]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.809206853]: ---- Neighbour node is valid (40,41):77.3553 vs 76.3553[0m
+[32m[DEBUG] [1620754816.809238227]: ---- Neighbour node is valid (40,42):76.8855 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809262229]: ---- Adding node 40,42 to open list[0m
+[32m[DEBUG] [1620754816.809291447]: ---- Neighbour node is valid (41,40):76.9857 vs 75.9857[0m
+[32m[DEBUG] [1620754816.809324951]: ---- Neighbour node is valid (41,42):76 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809348756]: ---- Adding node 41,42 to open list[0m
+[32m[DEBUG] [1620754816.809378912]: ---- Neighbour node is valid (42,40):76.1321 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809402790]: ---- Adding node 42,40 to open list[0m
+[32m[DEBUG] [1620754816.809431794]: ---- Neighbour node is valid (42,41):75.6155 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809455507]: ---- Adding node 42,41 to open list[0m
+[32m[DEBUG] [1620754816.809494861]: ---- Neighbour node is valid (42,42):75.121 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809519083]: ---- Adding node 42,42 to open list[0m
+[32m[DEBUG] [1620754816.809540976]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.809577804]: ---- Neighbour node is valid (41,42):77 vs 76[0m
+[32m[DEBUG] [1620754816.809608860]: ---- Neighbour node is valid (41,43):76.541 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809632791]: ---- Adding node 41,43 to open list[0m
+[32m[DEBUG] [1620754816.809661870]: ---- Neighbour node is valid (42,41):76.6155 vs 75.6155[0m
+[32m[DEBUG] [1620754816.809695555]: ---- Neighbour node is valid (42,43):75.6497 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809719284]: ---- Adding node 42,43 to open list[0m
+[32m[DEBUG] [1620754816.809748999]: ---- Neighbour node is valid (43,41):75.7567 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809772723]: ---- Adding node 43,41 to open list[0m
+[32m[DEBUG] [1620754816.809801862]: ---- Neighbour node is valid (43,42):75.249 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809825554]: ---- Adding node 43,42 to open list[0m
+[32m[DEBUG] [1620754816.809854820]: ---- Neighbour node is valid (43,43):74.7648 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.809878424]: ---- Adding node 43,43 to open list[0m
+[32m[DEBUG] [1620754816.814886810]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.817729952]: ---- Neighbour node is valid (42,43):76.6497 vs 75.6497[0m
+[32m[DEBUG] [1620754816.817776155]: ---- Neighbour node is valid (42,44):76.2025 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.817803397]: ---- Adding node 42,44 to open list[0m
+[32m[DEBUG] [1620754816.817907914]: ---- Neighbour node is valid (43,42):76.249 vs 75.249[0m
+[32m[DEBUG] [1620754816.817946126]: ---- Neighbour node is valid (43,44):75.305 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.817971676]: ---- Adding node 43,44 to open list[0m
+[32m[DEBUG] [1620754816.818003119]: ---- Neighbour node is valid (44,42):75.3847 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818027933]: ---- Adding node 44,42 to open list[0m
+[32m[DEBUG] [1620754816.818058334]: ---- Neighbour node is valid (44,43):74.8869 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818082717]: ---- Adding node 44,43 to open list[0m
+[32m[DEBUG] [1620754816.818112463]: ---- Neighbour node is valid (44,44):74.4138 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818136563]: ---- Adding node 44,44 to open list[0m
+[32m[DEBUG] [1620754816.818159048]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.818197533]: ---- Neighbour node is valid (43,44):76.305 vs 75.305[0m
+[32m[DEBUG] [1620754816.818229324]: ---- Neighbour node is valid (43,45):75.8707 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818253665]: ---- Adding node 43,45 to open list[0m
+[32m[DEBUG] [1620754816.818283131]: ---- Neighbour node is valid (44,43):75.8869 vs 74.8869[0m
+[32m[DEBUG] [1620754816.818316742]: ---- Neighbour node is valid (44,45):74.9666 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818340519]: ---- Adding node 44,45 to open list[0m
+[32m[DEBUG] [1620754816.818466959]: ---- Neighbour node is valid (45,43):75.0167 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818497329]: ---- Adding node 45,43 to open list[0m
+[32m[DEBUG] [1620754816.818528525]: ---- Neighbour node is valid (45,44):74.5296 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818553150]: ---- Adding node 45,44 to open list[0m
+[32m[DEBUG] [1620754816.818582705]: ---- Neighbour node is valid (45,45):74.0689 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818606855]: ---- Adding node 45,45 to open list[0m
+[32m[DEBUG] [1620754816.818629168]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.818667233]: ---- Neighbour node is valid (44,45):75.9666 vs 74.9666[0m
+[32m[DEBUG] [1620754816.818698830]: ---- Neighbour node is valid (44,46):75.5466 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818804725]: ---- Adding node 44,46 to open list[0m
+[32m[DEBUG] [1620754816.818839485]: ---- Neighbour node is valid (45,44):75.5296 vs 74.5296[0m
+[32m[DEBUG] [1620754816.818892677]: ---- Neighbour node is valid (45,46):74.6356 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818917495]: ---- Adding node 45,46 to open list[0m
+[32m[DEBUG] [1620754816.818947563]: ---- Neighbour node is valid (46,44):74.6531 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.818971620]: ---- Adding node 46,44 to open list[0m
+[32m[DEBUG] [1620754816.819000622]: ---- Neighbour node is valid (46,45):74.178 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.819024116]: ---- Adding node 46,45 to open list[0m
+[32m[DEBUG] [1620754816.819052965]: ---- Neighbour node is valid (46,46):73.7308 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.819076666]: ---- Adding node 46,46 to open list[0m
+[32m[DEBUG] [1620754816.819098589]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.819136417]: ---- Neighbour node is valid (45,46):75.6356 vs 74.6356[0m
+[32m[DEBUG] [1620754816.819168442]: ---- Neighbour node is valid (45,47):75.2312 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.819192165]: ---- Adding node 45,47 to open list[0m
+[32m[DEBUG] [1620754816.819220965]: ---- Neighbour node is valid (46,45):75.178 vs 74.178[0m
+[32m[DEBUG] [1620754816.819254280]: ---- Neighbour node is valid (46,47):74.313 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.826834526]: ---- Adding node 46,47 to open list[0m
+[32m[DEBUG] [1620754816.826889670]: ---- Neighbour node is valid (47,45):74.2947 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.826917543]: ---- Adding node 47,45 to open list[0m
+[32m[DEBUG] [1620754816.826949649]: ---- Neighbour node is valid (47,46):73.8328 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.826974391]: ---- Adding node 47,46 to open list[0m
+[32m[DEBUG] [1620754816.827004819]: ---- Neighbour node is valid (47,47):73.4008 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.827028975]: ---- Adding node 47,47 to open list[0m
+[32m[DEBUG] [1620754816.827051678]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.827091573]: ---- Neighbour node is valid (46,47):75.313 vs 74.313[0m
+[32m[DEBUG] [1620754816.827123963]: ---- Neighbour node is valid (46,48):74.9258 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.827148383]: ---- Adding node 46,48 to open list[0m
+[32m[DEBUG] [1620754816.827178010]: ---- Neighbour node is valid (47,46):74.8328 vs 73.8328[0m
+[32m[DEBUG] [1620754816.827212441]: ---- Neighbour node is valid (47,48):74 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.827236842]: ---- Adding node 47,48 to open list[0m
+[32m[DEBUG] [1620754816.827266872]: ---- Neighbour node is valid (48,46):73.9422 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.827291093]: ---- Adding node 48,46 to open list[0m
+[32m[DEBUG] [1620754816.827320581]: ---- Neighbour node is valid (48,47):73.4951 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.827344542]: ---- Adding node 48,47 to open list[0m
+[32m[DEBUG] [1620754816.827373688]: ---- Neighbour node is valid (48,48):73.0799 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.827397746]: ---- Adding node 48,48 to open list[0m
+[32m[DEBUG] [1620754816.827419854]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.827456597]: ---- Neighbour node is valid (47,48):75 vs 74[0m
+[32m[DEBUG] [1620754816.827488039]: ---- Neighbour node is valid (47,49):74.632 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.827511996]: ---- Adding node 47,49 to open list[0m
+[32m[DEBUG] [1620754816.827541371]: ---- Neighbour node is valid (48,47):74.4951 vs 73.4951[0m
+[32m[DEBUG] [1620754816.827574756]: ---- Neighbour node is valid (48,49):73.6982 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.829990272]: ---- Adding node 48,49 to open list[0m
+[32m[DEBUG] [1620754816.830046567]: ---- Neighbour node is valid (49,47):73.5967 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830078171]: ---- Adding node 49,47 to open list[0m
+[32m[DEBUG] [1620754816.830114229]: ---- Neighbour node is valid (49,48):73.1661 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830142278]: ---- Adding node 49,48 to open list[0m
+[32m[DEBUG] [1620754816.830176329]: ---- Neighbour node is valid (49,49):72.7697 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830226646]: ---- Adding node 49,49 to open list[0m
+[32m[DEBUG] [1620754816.830253084]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.830298892]: ---- Neighbour node is valid (48,49):74.6982 vs 73.6982[0m
+[32m[DEBUG] [1620754816.830335668]: ---- Neighbour node is valid (48,50):74.3516 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830363796]: ---- Adding node 48,50 to open list[0m
+[32m[DEBUG] [1620754816.830397628]: ---- Neighbour node is valid (49,48):74.1661 vs 73.1661[0m
+[32m[DEBUG] [1620754816.830436135]: ---- Neighbour node is valid (49,50):73.4094 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830463340]: ---- Adding node 49,50 to open list[0m
+[32m[DEBUG] [1620754816.830497016]: ---- Neighbour node is valid (50,48):73.2594 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830524379]: ---- Adding node 50,48 to open list[0m
+[32m[DEBUG] [1620754816.830557772]: ---- Neighbour node is valid (50,49):72.8473 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830584819]: ---- Adding node 50,49 to open list[0m
+[32m[DEBUG] [1620754816.830618139]: ---- Neighbour node is valid (50,50):72.4722 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830644942]: ---- Adding node 50,50 to open list[0m
+[32m[DEBUG] [1620754816.830669686]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.830712268]: ---- Neighbour node is valid (49,50):74.4094 vs 73.4094[0m
+[32m[DEBUG] [1620754816.830747836]: ---- Neighbour node is valid (49,51):74.0868 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830775031]: ---- Adding node 49,51 to open list[0m
+[32m[DEBUG] [1620754816.830808146]: ---- Neighbour node is valid (50,49):73.8473 vs 72.8473[0m
+[32m[DEBUG] [1620754816.830846394]: ---- Neighbour node is valid (50,51):73.1359 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830873340]: ---- Adding node 50,51 to open list[0m
+[32m[DEBUG] [1620754816.830912969]: ---- Neighbour node is valid (51,49):72.9317 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830936704]: ---- Adding node 51,49 to open list[0m
+[32m[DEBUG] [1620754816.830966039]: ---- Neighbour node is valid (51,50):72.5407 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.830989892]: ---- Adding node 51,50 to open list[0m
+[32m[DEBUG] [1620754816.831019324]: ---- Neighbour node is valid (51,51):72.1896 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831043167]: ---- Adding node 51,51 to open list[0m
+[32m[DEBUG] [1620754816.831065242]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.831102486]: ---- Neighbour node is valid (50,51):74.1359 vs 73.1359[0m
+[32m[DEBUG] [1620754816.831133912]: ---- Neighbour node is valid (50,52):73.8403 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831157548]: ---- Adding node 50,52 to open list[0m
+[32m[DEBUG] [1620754816.831186660]: ---- Neighbour node is valid (51,50):73.5407 vs 72.5407[0m
+[32m[DEBUG] [1620754816.831220836]: ---- Neighbour node is valid (51,52):72.8806 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831244792]: ---- Adding node 51,52 to open list[0m
+[32m[DEBUG] [1620754816.831274081]: ---- Neighbour node is valid (52,50):72.6155 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831298076]: ---- Adding node 52,50 to open list[0m
+[32m[DEBUG] [1620754816.831327333]: ---- Neighbour node is valid (52,51):72.2485 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831351291]: ---- Adding node 52,51 to open list[0m
+[32m[DEBUG] [1620754816.831380454]: ---- Neighbour node is valid (52,52):71.9249 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831404938]: ---- Adding node 52,52 to open list[0m
+[32m[DEBUG] [1620754816.831437634]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.831485266]: ---- Neighbour node is valid (51,52):73.8806 vs 72.8806[0m
+[32m[DEBUG] [1620754816.831516630]: ---- Neighbour node is valid (51,53):73.6155 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831540340]: ---- Adding node 51,53 to open list[0m
+[32m[DEBUG] [1620754816.831569311]: ---- Neighbour node is valid (52,51):73.2485 vs 72.2485[0m
+[32m[DEBUG] [1620754816.831602825]: ---- Neighbour node is valid (52,53):72.6469 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831636541]: ---- Adding node 52,53 to open list[0m
+[32m[DEBUG] [1620754816.831668035]: ---- Neighbour node is valid (53,51):72.3132 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831692477]: ---- Adding node 53,51 to open list[0m
+[32m[DEBUG] [1620754816.831722086]: ---- Neighbour node is valid (53,52):71.9737 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831745809]: ---- Adding node 53,52 to open list[0m
+[32m[DEBUG] [1620754816.831775018]: ---- Neighbour node is valid (53,53):71.6815 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831798729]: ---- Adding node 53,53 to open list[0m
+[32m[DEBUG] [1620754816.831820467]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.831857969]: ---- Neighbour node is valid (52,53):73.6469 vs 72.6469[0m
+[32m[DEBUG] [1620754816.831889239]: ---- Neighbour node is valid (52,54):73.4165 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831912978]: ---- Adding node 52,54 to open list[0m
+[32m[DEBUG] [1620754816.831942003]: ---- Neighbour node is valid (53,52):72.9737 vs 71.9737[0m
+[32m[DEBUG] [1620754816.831975334]: ---- Neighbour node is valid (53,54):72.4391 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.831998791]: ---- Adding node 53,54 to open list[0m
+[32m[DEBUG] [1620754816.832027871]: ---- Neighbour node is valid (54,52):72.0278 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.832051450]: ---- Adding node 54,52 to open list[0m
+[32m[DEBUG] [1620754816.832080428]: ---- Neighbour node is valid (54,53):71.72 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.838477113]: ---- Adding node 54,53 to open list[0m
+[32m[DEBUG] [1620754816.838544544]: ---- Neighbour node is valid (54,54):71.4642 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.838573842]: ---- Adding node 54,54 to open list[0m
+[32m[DEBUG] [1620754816.838598943]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.838647886]: ---- Neighbour node is valid (53,54):73.4391 vs 72.4391[0m
+[32m[DEBUG] [1620754816.838682619]: ---- Neighbour node is valid (53,55):73.2483 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.838707671]: ---- Adding node 53,55 to open list[0m
+[32m[DEBUG] [1620754816.838739105]: ---- Neighbour node is valid (54,53):72.72 vs 71.72[0m
+[32m[DEBUG] [1620754816.838785012]: ---- Neighbour node is valid (54,55):72.2627 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.838810590]: ---- Adding node 54,55 to open list[0m
+[32m[DEBUG] [1620754816.838851359]: ---- Neighbour node is valid (55,53):71.7631 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.838875966]: ---- Adding node 55,53 to open list[0m
+[32m[DEBUG] [1620754816.838905919]: ---- Neighbour node is valid (55,54):71.4924 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.838930180]: ---- Adding node 55,54 to open list[0m
+[32m[DEBUG] [1620754816.838960214]: ---- Neighbour node is valid (55,55):71.2788 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.838984459]: ---- Adding node 55,55 to open list[0m
+[32m[DEBUG] [1620754816.839006745]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.839047017]: ---- Neighbour node is valid (54,55):73.2627 vs 72.2627[0m
+[32m[DEBUG] [1620754816.839079330]: ---- Neighbour node is valid (54,56):73.1172 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.839103644]: ---- Adding node 54,56 to open list[0m
+[32m[DEBUG] [1620754816.839133573]: ---- Neighbour node is valid (55,54):72.4924 vs 71.4924[0m
+[32m[DEBUG] [1620754816.839168211]: ---- Neighbour node is valid (55,56):72.1245 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.839192589]: ---- Adding node 55,56 to open list[0m
+[32m[DEBUG] [1620754816.839223044]: ---- Neighbour node is valid (56,54):71.5242 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.839247373]: ---- Adding node 56,54 to open list[0m
+[32m[DEBUG] [1620754816.839277132]: ---- Neighbour node is valid (56,55):71.2971 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.839301345]: ---- Adding node 56,55 to open list[0m
+[32m[DEBUG] [1620754816.839331366]: ---- Neighbour node is valid (56,56):71.1327 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.839355553]: ---- Adding node 56,56 to open list[0m
+[32m[DEBUG] [1620754816.842856719]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.842923828]: ---- Neighbour node is valid (55,56):73.1245 vs 72.1245[0m
+[32m[DEBUG] [1620754816.842970816]: ---- Neighbour node is valid (55,57):73.0312 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.842996755]: ---- Adding node 55,57 to open list[0m
+[32m[DEBUG] [1620754816.843027823]: ---- Neighbour node is valid (56,55):72.2971 vs 71.2971[0m
+[32m[DEBUG] [1620754816.843062794]: ---- Neighbour node is valid (56,57):72.0333 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843087765]: ---- Adding node 56,57 to open list[0m
+[32m[DEBUG] [1620754816.843118766]: ---- Neighbour node is valid (57,55):71.3178 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843143347]: ---- Adding node 57,55 to open list[0m
+[32m[DEBUG] [1620754816.843173748]: ---- Neighbour node is valid (57,56):71.1421 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843198167]: ---- Adding node 57,56 to open list[0m
+[32m[DEBUG] [1620754816.843228135]: ---- Neighbour node is valid (57,57):71.0357 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843252632]: ---- Adding node 57,57 to open list[0m
+[32m[DEBUG] [1620754816.843275195]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.843315614]: ---- Neighbour node is valid (56,57):73.0333 vs 72.0333[0m
+[32m[DEBUG] [1620754816.843347961]: ---- Neighbour node is valid (56,58):73 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843372384]: ---- Adding node 56,58 to open list[0m
+[32m[DEBUG] [1620754816.843402378]: ---- Neighbour node is valid (57,56):72.1421 vs 71.1421[0m
+[32m[DEBUG] [1620754816.843436289]: ---- Neighbour node is valid (57,58):72 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843460855]: ---- Adding node 57,58 to open list[0m
+[32m[DEBUG] [1620754816.843491595]: ---- Neighbour node is valid (58,56):71.1529 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843516017]: ---- Adding node 58,56 to open list[0m
+[32m[DEBUG] [1620754816.843545658]: ---- Neighbour node is valid (58,57):71.0384 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.843570038]: ---- Adding node 58,57 to open list[0m
+[32m[DEBUG] [1620754816.843600028]: ---- Neighbour node is valid (58,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.844612301]: ---- Adding node 58,58 to open list[0m
+[32m[DEBUG] [1620754816.844658801]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.844710540]: ---- Neighbour node is valid (57,58):73 vs 72[0m
+[32m[DEBUG] [1620754816.844747810]: ---- Neighbour node is valid (57,59):73.0357 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.844774086]: ---- Adding node 57,59 to open list[0m
+[32m[DEBUG] [1620754816.844805721]: ---- Neighbour node is valid (58,57):72.0384 vs 71.0384[0m
+[32m[DEBUG] [1620754816.844841706]: ---- Neighbour node is valid (58,59):72.0384 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.844866577]: ---- Adding node 58,59 to open list[0m
+[32m[DEBUG] [1620754816.844897471]: ---- Neighbour node is valid (59,57):71.0416 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.844922048]: ---- Adding node 59,57 to open list[0m
+[32m[DEBUG] [1620754816.844952513]: ---- Neighbour node is valid (59,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.844977110]: ---- Adding node 59,58 to open list[0m
+[32m[DEBUG] [1620754816.845049454]: ---- Neighbour node is valid (59,59):71.0416 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.845083100]: ---- Adding node 59,59 to open list[0m
+[32m[DEBUG] [1620754816.845107169]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.845155695]: ---- Neighbour node is valid (58,57):73.0384 vs 71.0384[0m
+[32m[DEBUG] [1620754816.845192874]: ---- Neighbour node is valid (58,59):73.0384 vs 72.0384[0m
+[32m[DEBUG] [1620754816.845235337]: ---- Neighbour node is valid (59,57):72.0416 vs 71.0416[0m
+[32m[DEBUG] [1620754816.845280765]: ---- Neighbour node is valid (59,59):72.0416 vs 71.0416[0m
+[32m[DEBUG] [1620754816.845313230]: ---- Neighbour node is valid (60,57):71.0454 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.845338516]: ---- Adding node 60,57 to open list[0m
+[32m[DEBUG] [1620754816.845390655]: ---- Neighbour node is valid (60,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.845416147]: ---- Adding node 60,58 to open list[0m
+[32m[DEBUG] [1620754816.845446441]: ---- Neighbour node is valid (60,59):71.0454 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.845471091]: ---- Adding node 60,59 to open list[0m
+[32m[DEBUG] [1620754816.845493809]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.845530727]: ---- Neighbour node is valid (59,57):73.0416 vs 71.0416[0m
+[32m[DEBUG] [1620754816.845566652]: ---- Neighbour node is valid (59,59):73.0416 vs 71.0416[0m
+[32m[DEBUG] [1620754816.845598154]: ---- Neighbour node is valid (60,57):72.0454 vs 71.0454[0m
+[32m[DEBUG] [1620754816.845632800]: ---- Neighbour node is valid (60,59):72.0454 vs 71.0454[0m
+[32m[DEBUG] [1620754816.845664560]: ---- Neighbour node is valid (61,57):71.0499 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.845689494]: ---- Adding node 61,57 to open list[0m
+[32m[DEBUG] [1620754816.845719579]: ---- Neighbour node is valid (61,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.845744127]: ---- Adding node 61,58 to open list[0m
+[32m[DEBUG] [1620754816.845774046]: ---- Neighbour node is valid (61,59):71.0499 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.845798378]: ---- Adding node 61,59 to open list[0m
+[32m[DEBUG] [1620754816.845820862]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.845856869]: ---- Neighbour node is valid (60,57):73.0454 vs 71.0454[0m
+[32m[DEBUG] [1620754816.845892189]: ---- Neighbour node is valid (60,59):73.0454 vs 71.0454[0m
+[32m[DEBUG] [1620754816.845923456]: ---- Neighbour node is valid (61,57):72.0499 vs 71.0499[0m
+[32m[DEBUG] [1620754816.845957545]: ---- Neighbour node is valid (61,59):72.0499 vs 71.0499[0m
+[32m[DEBUG] [1620754816.845988856]: ---- Neighbour node is valid (62,57):71.0554 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.846013566]: ---- Adding node 62,57 to open list[0m
+[32m[DEBUG] [1620754816.846043479]: ---- Neighbour node is valid (62,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.846068454]: ---- Adding node 62,58 to open list[0m
+[32m[DEBUG] [1620754816.846098495]: ---- Neighbour node is valid (62,59):71.0554 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.846122916]: ---- Adding node 62,59 to open list[0m
+[32m[DEBUG] [1620754816.846145527]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.846181446]: ---- Neighbour node is valid (61,57):73.0499 vs 71.0499[0m
+[32m[DEBUG] [1620754816.846216762]: ---- Neighbour node is valid (61,59):73.0499 vs 71.0499[0m
+[32m[DEBUG] [1620754816.846247809]: ---- Neighbour node is valid (62,57):72.0554 vs 71.0554[0m
+[32m[DEBUG] [1620754816.858565860]: ---- Neighbour node is valid (62,59):72.0554 vs 71.0554[0m
+[32m[DEBUG] [1620754816.858611608]: ---- Neighbour node is valid (63,57):71.0623 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.858640028]: ---- Adding node 63,57 to open list[0m
+[32m[DEBUG] [1620754816.858673866]: ---- Neighbour node is valid (63,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.858700038]: ---- Adding node 63,58 to open list[0m
+[32m[DEBUG] [1620754816.858731458]: ---- Neighbour node is valid (63,59):71.0623 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.858757133]: ---- Adding node 63,59 to open list[0m
+[32m[DEBUG] [1620754816.858780670]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.858822222]: ---- Neighbour node is valid (62,57):73.0554 vs 71.0554[0m
+[32m[DEBUG] [1620754816.858858168]: ---- Neighbour node is valid (62,59):73.0554 vs 71.0554[0m
+[32m[DEBUG] [1620754816.858890100]: ---- Neighbour node is valid (63,57):72.0623 vs 71.0623[0m
+[32m[DEBUG] [1620754816.858924737]: ---- Neighbour node is valid (63,59):72.0623 vs 71.0623[0m
+[32m[DEBUG] [1620754816.863191545]: ---- Neighbour node is valid (64,57):71.0711 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.863249632]: ---- Adding node 64,57 to open list[0m
+[32m[DEBUG] [1620754816.863294061]: ---- Neighbour node is valid (64,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.863343384]: ---- Adding node 64,58 to open list[0m
+[32m[DEBUG] [1620754816.863377519]: ---- Neighbour node is valid (64,59):71.0711 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.863403550]: ---- Adding node 64,59 to open list[0m
+[32m[DEBUG] [1620754816.863427279]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.863469513]: ---- Neighbour node is valid (63,57):73.0623 vs 71.0623[0m
+[32m[DEBUG] [1620754816.863505815]: ---- Neighbour node is valid (63,59):73.0623 vs 71.0623[0m
+[32m[DEBUG] [1620754816.863537618]: ---- Neighbour node is valid (64,57):72.0711 vs 71.0711[0m
+[32m[DEBUG] [1620754816.863571901]: ---- Neighbour node is valid (64,59):72.0711 vs 71.0711[0m
+[32m[DEBUG] [1620754816.863614358]: ---- Neighbour node is valid (65,57):71.0828 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.863640532]: ---- Adding node 65,57 to open list[0m
+[32m[DEBUG] [1620754816.863681046]: ---- Neighbour node is valid (65,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.863705913]: ---- Adding node 65,58 to open list[0m
+[32m[DEBUG] [1620754816.863736014]: ---- Neighbour node is valid (65,59):71.0828 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.863760348]: ---- Adding node 65,59 to open list[0m
+[32m[DEBUG] [1620754816.863782938]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.863819005]: ---- Neighbour node is valid (64,57):73.0711 vs 71.0711[0m
+[32m[DEBUG] [1620754816.863865173]: ---- Neighbour node is valid (64,59):73.0711 vs 71.0711[0m
+[32m[DEBUG] [1620754816.863900088]: ---- Neighbour node is valid (65,57):72.0828 vs 71.0828[0m
+[32m[DEBUG] [1620754816.863937738]: ---- Neighbour node is valid (65,59):72.0828 vs 71.0828[0m
+[32m[DEBUG] [1620754816.863972206]: ---- Neighbour node is valid (66,57):71.099 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.863999339]: ---- Adding node 66,57 to open list[0m
+[32m[DEBUG] [1620754816.864032434]: ---- Neighbour node is valid (66,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.864059351]: ---- Adding node 66,58 to open list[0m
+[32m[DEBUG] [1620754816.864092600]: ---- Neighbour node is valid (66,59):71.099 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.867735037]: ---- Adding node 66,59 to open list[0m
+[32m[DEBUG] [1620754816.867771745]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.867828540]: ---- Neighbour node is valid (65,57):73.0828 vs 71.0828[0m
+[32m[DEBUG] [1620754816.867878306]: ---- Neighbour node is valid (65,59):73.0828 vs 71.0828[0m
+[32m[DEBUG] [1620754816.867914650]: ---- Neighbour node is valid (66,57):72.099 vs 71.099[0m
+[32m[DEBUG] [1620754816.867953393]: ---- Neighbour node is valid (66,59):72.099 vs 71.099[0m
+[32m[DEBUG] [1620754816.867988974]: ---- Neighbour node is valid (67,57):71.1231 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.873432422]: ---- Adding node 67,57 to open list[0m
+[32m[DEBUG] [1620754816.873494038]: ---- Neighbour node is valid (67,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.873523745]: ---- Adding node 67,58 to open list[0m
+[32m[DEBUG] [1620754816.873557965]: ---- Neighbour node is valid (67,59):71.1231 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.873585284]: ---- Adding node 67,59 to open list[0m
+[32m[DEBUG] [1620754816.873611066]: ---- Looping finding lowest F score[0m
+[32m[DEBUG] [1620754816.873655191]: ---- Neighbour node is valid (66,57):73.099 vs 71.099[0m
+[32m[DEBUG] [1620754816.873694711]: ---- Neighbour node is valid (66,59):73.099 vs 71.099[0m
+[32m[DEBUG] [1620754816.873729110]: ---- Neighbour node is valid (67,57):72.1231 vs 71.1231[0m
+[32m[DEBUG] [1620754816.873773475]: ---- Neighbour node is valid (67,59):72.1231 vs 71.1231[0m
+[32m[DEBUG] [1620754816.873805023]: ---- Neighbour node is valid (68,57):71.1623 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.873830224]: ---- Adding node 68,57 to open list[0m
+[32m[DEBUG] [1620754816.873860177]: ---- Neighbour node is valid (68,58):71 vs 3.40282e+38[0m
+[32m[DEBUG] [1620754816.873884414]: ---- Adding node 68,58 to open list[0m
+[32m[DEBUG] [

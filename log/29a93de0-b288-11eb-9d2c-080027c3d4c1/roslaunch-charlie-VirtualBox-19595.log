@@ -1,0 +1,167 @@
+[roslaunch][INFO] 2021-05-11 11:39:04,954: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2021-05-11 11:39:04,958: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2021-05-11 11:39:04,958: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'simulator', 'ardrone_simulator.launch']
+[roslaunch][INFO] 2021-05-11 11:39:04,959: roslaunch env is {'UPSTART_EVENTS': 'xsession started', 'XDG_SESSION_TYPE': 'x11', 'SHELL': '/bin/bash', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'TERMINATOR_UUID': 'urn:uuid:e9136053-fed9-428d-8969-4783dac3e44f', 'QT_ACCESSIBILITY': '1', 'UNITY_DEFAULT_PROFILE': 'unity-lowgfx', 'UPSTART_INSTANCE': '', 'JOB': 'unity-settings-daemon', 'SESSION': 'ubuntu', 'LIBGL_ALWAYS_SOFTWARE': '1', 'CLUTTER_IM_MODULE': 'xim', 'XMODIFIERS': '@im=ibus', 'GTK2_MODULES': 'overlay-scrollbar', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/charlie/projects/position_controller/devel/lib/python2.7/dist-packages:/home/charlie/labs/devel/lib/python2.7/dist-packages:/home/charlie/extras/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'COMPIZ_BIN_PATH': '/usr/bin/', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'XDG_SESSION_ID': 'c2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-Rh5Yj5YsRV', 'ORBIT_SOCKETDIR': '/tmp/orbit-charlie', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'INSTANCE': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charlie', 'XDG_VTNR': '7', 'CMAKE_PREFIX_PATH': '/home/charlie/projects/position_controller/devel:/home/charlie/labs/devel:/home/charlie/extras/devel:/opt/ros/kinetic', 'XAUTHORITY': '/home/charlie/.Xauthority', 'LANGUAGE': 'en_US', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LD_LIBRARY_PATH': '/home/charlie/projects/position_controller/devel/lib:/home/charlie/labs/devel/lib:/home/charlie/extras/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'WINDOWID': '58720260', 'GPG_AGENT_INFO': '/home/charlie/.gnupg/S.gpg-agent:0:1', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GDMSESSION': 'ubuntu', 'UPSTART_JOB': 'unity7', 'PKG_CONFIG_PATH': '/home/charlie/projects/position_controller/devel/lib/pkgconfig:/home/charlie/labs/devel/lib/pkgconfig:/home/charlie/extras/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/home/charlie/projects/position_controller/src:/home/charlie/labs/src:/home/charlie/extras/src:/opt/ros/kinetic/share', '_': '/opt/ros/kinetic/bin/roslaunch', 'GTK_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'ROS_MASTER_URI': 'http://localhost:11311', 'COLORTERM': 'gnome-terminal', 'GAZEBO_RESOURCE_PATH': '/home/charlie/gazebo/world:/home/charlie/gazebo/world:', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/charlie', 'QT4_IM_MODULE': 'xim', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'HOME': '/home/charlie', 'ROS_LOG_FILENAME': './log/29a93de0-b288-11eb-9d2c-080027c3d4c1/roslaunch-charlie-VirtualBox-19595.log', 'LANG': 'en_US.UTF-8', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'ROS_PYTHON_VERSION': '2', 'IBUS_DISABLE_SNOOPER': '1', 'XDG_CURRENT_DESKTOP': 'Unity', 'UNITY_HAS_3D_SUPPORT': 'false', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GNOME_KEYRING_PID': '', 'GAZEBO_PLUGIN_PATH': '/home/charlie/gazebo/plugins:/home/charlie/gazebo/plugins:', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_DISTRO': 'kinetic', 'ROS_LOG_DIR': './log', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/charlie/projects/position_controller/devel/share/common-lisp:/home/charlie/labs/devel/share/common-lisp:/home/charlie/extras/devel/share/common-lisp', 'QT_IM_MODULE': 'ibus', 'LOGNAME': 'charlie', 'XDG_SEAT': 'seat0', 'GNOME_KEYRING_CONTROL': '', 'PATH': '/opt/ros/kinetic/bin:/home/charlie/bin:/home/charlie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'TERM': 'xterm', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'SESSIONTYPE': 'gnome-session', 'IM_CONFIG_PHASE': '1', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1257', 'DISPLAY': ':0', 'OLDPWD': '/home/charlie', 'GDM_LANG': 'en_US', 'PWD': '/home/charlie/projects/position_controller', 'ROS_VERSION': '1', 'GAZEBO_MODEL_PATH': '/home/charlie/gazebo/models:/home/charlie/gazebo/models:'}
+[roslaunch][INFO] 2021-05-11 11:39:04,959: starting in server mode
+[roslaunch.parent][INFO] 2021-05-11 11:39:04,959: starting roslaunch parent run
+[roslaunch][INFO] 2021-05-11 11:39:04,959: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2021-05-11 11:39:05,552: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2021-05-11 11:39:05,553: loading config file /home/charlie/projects/position_controller/src/simulator/launch/ardrone_simulator.launch
+[roslaunch][INFO] 2021-05-11 11:39:05,583: Added node of type [gazebo_ros/gzserver] in namespace [/]
+[roslaunch][INFO] 2021-05-11 11:39:05,584: Added node of type [gazebo_ros/gzclient] in namespace [/]
+[roslaunch][INFO] 2021-05-11 11:39:05,584: Added node of type [simulator/indoor_robotics_lab_interface.py] in namespace [/]
+[roslaunch][INFO] 2021-05-11 11:39:05,584: Added node of type [simulator/main] in namespace [/]
+[roslaunch][INFO] 2021-05-11 11:39:05,585: ... selected machine [] for node of type [gazebo_ros/gzserver]
+[roslaunch][INFO] 2021-05-11 11:39:05,585: ... selected machine [] for node of type [gazebo_ros/gzclient]
+[roslaunch][INFO] 2021-05-11 11:39:05,585: ... selected machine [] for node of type [simulator/indoor_robotics_lab_interface.py]
+[roslaunch][INFO] 2021-05-11 11:39:05,585: ... selected machine [] for node of type [simulator/main]
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,586: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,586: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,586: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2021-05-11 11:39:05,586: starting parent XML-RPC server
+[roslaunch.server][INFO] 2021-05-11 11:39:05,586: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2021-05-11 11:39:05,586: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2021-05-11 11:39:05,586: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-11 11:39:05,587: Started XML-RPC server [http://charlie-VirtualBox:41891/]
+[xmlrpc][INFO] 2021-05-11 11:39:05,587: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2021-05-11 11:39:05,598: started roslaunch server http://charlie-VirtualBox:41891/
+[roslaunch.parent][INFO] 2021-05-11 11:39:05,598: ... parent XML-RPC server started
+[roslaunch][INFO] 2021-05-11 11:39:05,599: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:05,599: auto-starting new master
+[roslaunch][INFO] 2021-05-11 11:39:05,600: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2021-05-11 11:39:05,600: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,600: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,600: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2021-05-11 11:39:05,600: process[master]: starting os process
+[roslaunch][INFO] 2021-05-11 11:39:05,600: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=./log/29a93de0-b288-11eb-9d2c-080027c3d4c1/master.log']]
+[roslaunch][INFO] 2021-05-11 11:39:05,600: process[master]: cwd will be [/home/charlie/.ros]
+[roslaunch][INFO] 2021-05-11 11:39:05,607: process[master]: started with pid [19605]
+[roslaunch][INFO] 2021-05-11 11:39:05,614: master.is_running[http://localhost:11311]
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,674: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140613516781312)>
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,691: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140613516781312)>
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,692: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140613516781312)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fe322e026d0>]
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,693: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2021-05-11 11:39:05,694: [master] killing on exit
+[roslaunch][INFO] 2021-05-11 11:39:05,694: process[master]: killing os process with pid[19605] pgid[19605]
+[roslaunch][INFO] 2021-05-11 11:39:05,694: [master] sending SIGINT to pgid [19605]
+[roslaunch][INFO] 2021-05-11 11:39:05,694: [master] sent SIGINT to pgid [19605]
+[roslaunch][INFO] 2021-05-11 11:39:05,795: process[master]: SIGINT killed with return value 1
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,795: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2021-05-11 11:39:05,796: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2021-05-11 11:39:05,841: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:05,943: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,045: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,147: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,248: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,349: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,451: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,552: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,567: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,669: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,770: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,872: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:06,973: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,076: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,177: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,278: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,380: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,481: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,582: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,684: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,784: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,886: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:07,986: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,088: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,190: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,292: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,399: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,500: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,602: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,704: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,805: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:08,906: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,008: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,110: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,211: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,313: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,414: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,515: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,617: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,719: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,820: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:09,921: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,022: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,124: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,225: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,326: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,428: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,529: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,631: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,732: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,833: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:10,935: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,036: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,137: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,239: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,340: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,442: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,542: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,643: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,745: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,846: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:11,947: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,049: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,151: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,252: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,353: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,454: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,556: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,658: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,759: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,861: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:12,963: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,064: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,166: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,266: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,368: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,469: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,570: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,672: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,774: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,876: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:13,977: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,079: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,180: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,282: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,383: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,484: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,585: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,687: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,788: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,890: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:14,991: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,092: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,194: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,295: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,397: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,498: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,600: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,701: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-05-11 11:39:15,702: master.is_running[http://localhost:11311]
+[roslaunch][ERROR] 2021-05-11 11:39:15,702: ERROR: could not contact master [http://localhost:11311]
+[roslaunch][ERROR] 2021-05-11 11:39:15,702: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2021-05-11 11:39:15,703: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 308, in main
+    p.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 279, in start
+    self.runner.launch()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 657, in launch
+    self._setup()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 632, in _setup
+    launched = self._launch_master()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 410, in _launch_master
+    raise RLException("ERROR: could not contact master [%s]"%m.uri)
+RLException: ERROR: could not contact master [http://localhost:11311]
+
+[rospy.core][INFO] 2021-05-11 11:39:15,703: signal_shutdown [atexit]

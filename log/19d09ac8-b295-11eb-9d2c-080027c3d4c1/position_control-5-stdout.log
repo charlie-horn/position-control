@@ -1,0 +1,3091 @@
+[32m[DEBUG] [1620763903.200078866]: Done Initializing start point: 
+----------
+Node: 
+	ID: (0,0)
+	Cost: 
+		G: 0.000000
+		H:0.000000
+		F:0.000000
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200300810]: ---- Adding node0,1 to open list with parent:  
+----------
+Node: 
+	ID: (0,0)
+	Cost: 
+		G: 0.000000
+		H:0.000000
+		F:0.000000
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200354892]: ---- Adding node1,0 to open list with parent:  
+----------
+Node: 
+	ID: (0,0)
+	Cost: 
+		G: 0.000000
+		H:0.000000
+		F:0.000000
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200393391]: ---- Adding node1,1 to open list with parent:  
+----------
+Node: 
+	ID: (0,0)
+	Cost: 
+		G: 0.000000
+		H:0.000000
+		F:0.000000
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200441581]: ---- Adding node0,2 to open list with parent:  
+----------
+Node: 
+	ID: (1,1)
+	Cost: 
+		G: 1.000000
+		H:90.271812
+		F:91.271812
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200483529]: ---- Adding node1,2 to open list with parent:  
+----------
+Node: 
+	ID: (1,1)
+	Cost: 
+		G: 1.000000
+		H:90.271812
+		F:91.271812
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200518126]: ---- Adding node2,0 to open list with parent:  
+----------
+Node: 
+	ID: (1,1)
+	Cost: 
+		G: 1.000000
+		H:90.271812
+		F:91.271812
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200553714]: ---- Adding node2,1 to open list with parent:  
+----------
+Node: 
+	ID: (1,1)
+	Cost: 
+		G: 1.000000
+		H:90.271812
+		F:91.271812
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200587963]: ---- Adding node2,2 to open list with parent:  
+----------
+Node: 
+	ID: (1,1)
+	Cost: 
+		G: 1.000000
+		H:90.271812
+		F:91.271812
+	Parent:(0,0)
+----------[0m
+[32m[DEBUG] [1620763903.200632153]: ---- Adding node1,3 to open list with parent:  
+----------
+Node: 
+	ID: (2,2)
+	Cost: 
+		G: 2.000000
+		H:88.865067
+		F:90.865067
+	Parent:(1,1)
+----------[0m
+[32m[DEBUG] [1620763903.200693130]: ---- Adding node2,3 to open list with parent:  
+----------
+Node: 
+	ID: (2,2)
+	Cost: 
+		G: 2.000000
+		H:88.865067
+		F:90.865067
+	Parent:(1,1)
+----------[0m
+[32m[DEBUG] [1620763903.200727130]: ---- Adding node3,1 to open list with parent:  
+----------
+Node: 
+	ID: (2,2)
+	Cost: 
+		G: 2.000000
+		H:88.865067
+		F:90.865067
+	Parent:(1,1)
+----------[0m
+[32m[DEBUG] [1620763903.200762127]: ---- Adding node3,2 to open list with parent:  
+----------
+Node: 
+	ID: (2,2)
+	Cost: 
+		G: 2.000000
+		H:88.865067
+		F:90.865067
+	Parent:(1,1)
+----------[0m
+[32m[DEBUG] [1620763903.200796121]: ---- Adding node3,3 to open list with parent:  
+----------
+Node: 
+	ID: (2,2)
+	Cost: 
+		G: 2.000000
+		H:88.865067
+		F:90.865067
+	Parent:(1,1)
+----------[0m
+[32m[DEBUG] [1620763903.200840007]: ---- Adding node2,4 to open list with parent:  
+----------
+Node: 
+	ID: (3,3)
+	Cost: 
+		G: 3.000000
+		H:87.458565
+		F:90.458565
+	Parent:(2,2)
+----------[0m
+[32m[DEBUG] [1620763903.209877303]: ---- Adding node3,4 to open list with parent:  
+----------
+Node: 
+	ID: (3,3)
+	Cost: 
+		G: 3.000000
+		H:87.458565
+		F:90.458565
+	Parent:(2,2)
+----------[0m
+[32m[DEBUG] [1620763903.209925278]: ---- Adding node4,2 to open list with parent:  
+----------
+Node: 
+	ID: (3,3)
+	Cost: 
+		G: 3.000000
+		H:87.458565
+		F:90.458565
+	Parent:(2,2)
+----------[0m
+[32m[DEBUG] [1620763903.209973357]: ---- Adding node4,3 to open list with parent:  
+----------
+Node: 
+	ID: (3,3)
+	Cost: 
+		G: 3.000000
+		H:87.458565
+		F:90.458565
+	Parent:(2,2)
+----------[0m
+[32m[DEBUG] [1620763903.210020125]: ---- Adding node4,4 to open list with parent:  
+----------
+Node: 
+	ID: (3,3)
+	Cost: 
+		G: 3.000000
+		H:87.458565
+		F:90.458565
+	Parent:(2,2)
+----------[0m
+[32m[DEBUG] [1620763903.210066363]: ---- Adding node3,5 to open list with parent:  
+----------
+Node: 
+	ID: (4,4)
+	Cost: 
+		G: 4.000000
+		H:86.052307
+		F:90.052307
+	Parent:(3,3)
+----------[0m
+[32m[DEBUG] [1620763903.210108127]: ---- Adding node4,5 to open list with parent:  
+----------
+Node: 
+	ID: (4,4)
+	Cost: 
+		G: 4.000000
+		H:86.052307
+		F:90.052307
+	Parent:(3,3)
+----------[0m
+[32m[DEBUG] [1620763903.210142572]: ---- Adding node5,3 to open list with parent:  
+----------
+Node: 
+	ID: (4,4)
+	Cost: 
+		G: 4.000000
+		H:86.052307
+		F:90.052307
+	Parent:(3,3)
+----------[0m
+[32m[DEBUG] [1620763903.210210194]: ---- Adding node5,4 to open list with parent:  
+----------
+Node: 
+	ID: (4,4)
+	Cost: 
+		G: 4.000000
+		H:86.052307
+		F:90.052307
+	Parent:(3,3)
+----------[0m
+[32m[DEBUG] [1620763903.210245954]: ---- Adding node5,5 to open list with parent:  
+----------
+Node: 
+	ID: (4,4)
+	Cost: 
+		G: 4.000000
+		H:86.052307
+		F:90.052307
+	Parent:(3,3)
+----------[0m
+[32m[DEBUG] [1620763903.210290769]: ---- Adding node4,6 to open list with parent:  
+----------
+Node: 
+	ID: (5,5)
+	Cost: 
+		G: 5.000000
+		H:84.646324
+		F:89.646324
+	Parent:(4,4)
+----------[0m
+[32m[DEBUG] [1620763903.210331769]: ---- Adding node5,6 to open list with parent:  
+----------
+Node: 
+	ID: (5,5)
+	Cost: 
+		G: 5.000000
+		H:84.646324
+		F:89.646324
+	Parent:(4,4)
+----------[0m
+[32m[DEBUG] [1620763903.210366382]: ---- Adding node6,4 to open list with parent:  
+----------
+Node: 
+	ID: (5,5)
+	Cost: 
+		G: 5.000000
+		H:84.646324
+		F:89.646324
+	Parent:(4,4)
+----------[0m
+[32m[DEBUG] [1620763903.210400021]: ---- Adding node6,5 to open list with parent:  
+----------
+Node: 
+	ID: (5,5)
+	Cost: 
+		G: 5.000000
+		H:84.646324
+		F:89.646324
+	Parent:(4,4)
+----------[0m
+[32m[DEBUG] [1620763903.210433719]: ---- Adding node6,6 to open list with parent:  
+----------
+Node: 
+	ID: (5,5)
+	Cost: 
+		G: 5.000000
+		H:84.646324
+		F:89.646324
+	Parent:(4,4)
+----------[0m
+[32m[DEBUG] [1620763903.210489479]: ---- Adding node5,7 to open list with parent:  
+----------
+Node: 
+	ID: (6,6)
+	Cost: 
+		G: 6.000000
+		H:83.240616
+		F:89.240616
+	Parent:(5,5)
+----------[0m
+[32m[DEBUG] [1620763903.210539542]: ---- Adding node6,7 to open list with parent:  
+----------
+Node: 
+	ID: (6,6)
+	Cost: 
+		G: 6.000000
+		H:83.240616
+		F:89.240616
+	Parent:(5,5)
+----------[0m
+[32m[DEBUG] [1620763903.210573824]: ---- Adding node7,5 to open list with parent:  
+----------
+Node: 
+	ID: (6,6)
+	Cost: 
+		G: 6.000000
+		H:83.240616
+		F:89.240616
+	Parent:(5,5)
+----------[0m
+[32m[DEBUG] [1620763903.210614683]: ---- Adding node7,6 to open list with parent:  
+----------
+Node: 
+	ID: (6,6)
+	Cost: 
+		G: 6.000000
+		H:83.240616
+		F:89.240616
+	Parent:(5,5)
+----------[0m
+[32m[DEBUG] [1620763903.210649310]: ---- Adding node7,7 to open list with parent:  
+----------
+Node: 
+	ID: (6,6)
+	Cost: 
+		G: 6.000000
+		H:83.240616
+		F:89.240616
+	Parent:(5,5)
+----------[0m
+[32m[DEBUG] [1620763903.210694194]: ---- Adding node6,8 to open list with parent:  
+----------
+Node: 
+	ID: (7,7)
+	Cost: 
+		G: 7.000000
+		H:81.835197
+		F:88.835197
+	Parent:(6,6)
+----------[0m
+[32m[DEBUG] [1620763903.210735025]: ---- Adding node7,8 to open list with parent:  
+----------
+Node: 
+	ID: (7,7)
+	Cost: 
+		G: 7.000000
+		H:81.835197
+		F:88.835197
+	Parent:(6,6)
+----------[0m
+[32m[DEBUG] [1620763903.210769444]: ---- Adding node8,6 to open list with parent:  
+----------
+Node: 
+	ID: (7,7)
+	Cost: 
+		G: 7.000000
+		H:81.835197
+		F:88.835197
+	Parent:(6,6)
+----------[0m
+[32m[DEBUG] [1620763903.210803584]: ---- Adding node8,7 to open list with parent:  
+----------
+Node: 
+	ID: (7,7)
+	Cost: 
+		G: 7.000000
+		H:81.835197
+		F:88.835197
+	Parent:(6,6)
+----------[0m
+[32m[DEBUG] [1620763903.210837797]: ---- Adding node8,8 to open list with parent:  
+----------
+Node: 
+	ID: (7,7)
+	Cost: 
+		G: 7.000000
+		H:81.835197
+		F:88.835197
+	Parent:(6,6)
+----------[0m
+[32m[DEBUG] [1620763903.210881481]: ---- Adding node7,9 to open list with parent:  
+----------
+Node: 
+	ID: (8,8)
+	Cost: 
+		G: 8.000000
+		H:80.430092
+		F:88.430092
+	Parent:(7,7)
+----------[0m
+[32m[DEBUG] [1620763903.210921848]: ---- Adding node8,9 to open list with parent:  
+----------
+Node: 
+	ID: (8,8)
+	Cost: 
+		G: 8.000000
+		H:80.430092
+		F:88.430092
+	Parent:(7,7)
+----------[0m
+[32m[DEBUG] [1620763903.210967147]: ---- Adding node9,7 to open list with parent:  
+----------
+Node: 
+	ID: (8,8)
+	Cost: 
+		G: 8.000000
+		H:80.430092
+		F:88.430092
+	Parent:(7,7)
+----------[0m
+[32m[DEBUG] [1620763903.211012337]: ---- Adding node9,8 to open list with parent:  
+----------
+Node: 
+	ID: (8,8)
+	Cost: 
+		G: 8.000000
+		H:80.430092
+		F:88.430092
+	Parent:(7,7)
+----------[0m
+[32m[DEBUG] [1620763903.211059252]: ---- Adding node9,9 to open list with parent:  
+----------
+Node: 
+	ID: (8,8)
+	Cost: 
+		G: 8.000000
+		H:80.430092
+		F:88.430092
+	Parent:(7,7)
+----------[0m
+[32m[DEBUG] [1620763903.211105109]: ---- Adding node8,10 to open list with parent:  
+----------
+Node: 
+	ID: (9,9)
+	Cost: 
+		G: 9.000000
+		H:79.025314
+		F:88.025314
+	Parent:(8,8)
+----------[0m
+[32m[DEBUG] [1620763903.211146062]: ---- Adding node9,10 to open list with parent:  
+----------
+Node: 
+	ID: (9,9)
+	Cost: 
+		G: 9.000000
+		H:79.025314
+		F:88.025314
+	Parent:(8,8)
+----------[0m
+[32m[DEBUG] [1620763903.211180758]: ---- Adding node10,8 to open list with parent:  
+----------
+Node: 
+	ID: (9,9)
+	Cost: 
+		G: 9.000000
+		H:79.025314
+		F:88.025314
+	Parent:(8,8)
+----------[0m
+[32m[DEBUG] [1620763903.211214420]: ---- Adding node10,9 to open list with parent:  
+----------
+Node: 
+	ID: (9,9)
+	Cost: 
+		G: 9.000000
+		H:79.025314
+		F:88.025314
+	Parent:(8,8)
+----------[0m
+[32m[DEBUG] [1620763903.211248120]: ---- Adding node10,10 to open list with parent:  
+----------
+Node: 
+	ID: (9,9)
+	Cost: 
+		G: 9.000000
+		H:79.025314
+		F:88.025314
+	Parent:(8,8)
+----------[0m
+[32m[DEBUG] [1620763903.211292191]: ---- Adding node9,11 to open list with parent:  
+----------
+Node: 
+	ID: (10,10)
+	Cost: 
+		G: 10.000000
+		H:77.620872
+		F:87.620872
+	Parent:(9,9)
+----------[0m
+[32m[DEBUG] [1620763903.211333370]: ---- Adding node10,11 to open list with parent:  
+----------
+Node: 
+	ID: (10,10)
+	Cost: 
+		G: 10.000000
+		H:77.620872
+		F:87.620872
+	Parent:(9,9)
+----------[0m
+[32m[DEBUG] [1620763903.211368318]: ---- Adding node11,9 to open list with parent:  
+----------
+Node: 
+	ID: (10,10)
+	Cost: 
+		G: 10.000000
+		H:77.620872
+		F:87.620872
+	Parent:(9,9)
+----------[0m
+[32m[DEBUG] [1620763903.211402636]: ---- Adding node11,10 to open list with parent:  
+----------
+Node: 
+	ID: (10,10)
+	Cost: 
+		G: 10.000000
+		H:77.620872
+		F:87.620872
+	Parent:(9,9)
+----------[0m
+[32m[DEBUG] [1620763903.211437093]: ---- Adding node11,11 to open list with parent:  
+----------
+Node: 
+	ID: (10,10)
+	Cost: 
+		G: 10.000000
+		H:77.620872
+		F:87.620872
+	Parent:(9,9)
+----------[0m
+[32m[DEBUG] [1620763903.211481767]: ---- Adding node10,12 to open list with parent:  
+----------
+Node: 
+	ID: (11,11)
+	Cost: 
+		G: 11.000000
+		H:76.216797
+		F:87.216797
+	Parent:(10,10)
+----------[0m
+[32m[DEBUG] [1620763903.211523081]: ---- Adding node11,12 to open list with parent:  
+----------
+Node: 
+	ID: (11,11)
+	Cost: 
+		G: 11.000000
+		H:76.216797
+		F:87.216797
+	Parent:(10,10)
+----------[0m
+[32m[DEBUG] [1620763903.211557642]: ---- Adding node12,10 to open list with parent:  
+----------
+Node: 
+	ID: (11,11)
+	Cost: 
+		G: 11.000000
+		H:76.216797
+		F:87.216797
+	Parent:(10,10)
+----------[0m
+[32m[DEBUG] [1620763903.211592004]: ---- Adding node12,11 to open list with parent:  
+----------
+Node: 
+	ID: (11,11)
+	Cost: 
+		G: 11.000000
+		H:76.216797
+		F:87.216797
+	Parent:(10,10)
+----------[0m
+[32m[DEBUG] [1620763903.211626376]: ---- Adding node12,12 to open list with parent:  
+----------
+Node: 
+	ID: (11,11)
+	Cost: 
+		G: 11.000000
+		H:76.216797
+		F:87.216797
+	Parent:(10,10)
+----------[0m
+[32m[DEBUG] [1620763903.211670204]: ---- Adding node11,13 to open list with parent:  
+----------
+Node: 
+	ID: (12,12)
+	Cost: 
+		G: 12.000000
+		H:74.813103
+		F:86.813103
+	Parent:(11,11)
+----------[0m
+[32m[DEBUG] [1620763903.211710975]: ---- Adding node12,13 to open list with parent:  
+----------
+Node: 
+	ID: (12,12)
+	Cost: 
+		G: 12.000000
+		H:74.813103
+		F:86.813103
+	Parent:(11,11)
+----------[0m
+[32m[DEBUG] [1620763903.211745537]: ---- Adding node13,11 to open list with parent:  
+----------
+Node: 
+	ID: (12,12)
+	Cost: 
+		G: 12.000000
+		H:74.813103
+		F:86.813103
+	Parent:(11,11)
+----------[0m
+[32m[DEBUG] [1620763903.211779555]: ---- Adding node13,12 to open list with parent:  
+----------
+Node: 
+	ID: (12,12)
+	Cost: 
+		G: 12.000000
+		H:74.813103
+		F:86.813103
+	Parent:(11,11)
+----------[0m
+[32m[DEBUG] [1620763903.211813324]: ---- Adding node13,13 to open list with parent:  
+----------
+Node: 
+	ID: (12,12)
+	Cost: 
+		G: 12.000000
+		H:74.813103
+		F:86.813103
+	Parent:(11,11)
+----------[0m
+[32m[DEBUG] [1620763903.211867987]: ---- Adding node12,14 to open list with parent:  
+----------
+Node: 
+	ID: (13,13)
+	Cost: 
+		G: 13.000000
+		H:73.409805
+		F:86.409805
+	Parent:(12,12)
+----------[0m
+[32m[DEBUG] [1620763903.211913450]: ---- Adding node13,14 to open list with parent:  
+----------
+Node: 
+	ID: (13,13)
+	Cost: 
+		G: 13.000000
+		H:73.409805
+		F:86.409805
+	Parent:(12,12)
+----------[0m
+[32m[DEBUG] [1620763903.211948672]: ---- Adding node14,12 to open list with parent:  
+----------
+Node: 
+	ID: (13,13)
+	Cost: 
+		G: 13.000000
+		H:73.409805
+		F:86.409805
+	Parent:(12,12)
+----------[0m
+[32m[DEBUG] [1620763903.211982797]: ---- Adding node14,13 to open list with parent:  
+----------
+Node: 
+	ID: (13,13)
+	Cost: 
+		G: 13.000000
+		H:73.409805
+		F:86.409805
+	Parent:(12,12)
+----------[0m
+[32m[DEBUG] [1620763903.212016971]: ---- Adding node14,14 to open list with parent:  
+----------
+Node: 
+	ID: (13,13)
+	Cost: 
+		G: 13.000000
+		H:73.409805
+		F:86.409805
+	Parent:(12,12)
+----------[0m
+[32m[DEBUG] [1620763903.212061494]: ---- Adding node13,15 to open list with parent:  
+----------
+Node: 
+	ID: (14,14)
+	Cost: 
+		G: 14.000000
+		H:72.006943
+		F:86.006943
+	Parent:(13,13)
+----------[0m
+[32m[DEBUG] [1620763903.212113049]: ---- Adding node14,15 to open list with parent:  
+----------
+Node: 
+	ID: (14,14)
+	Cost: 
+		G: 14.000000
+		H:72.006943
+		F:86.006943
+	Parent:(13,13)
+----------[0m
+[32m[DEBUG] [1620763903.212169674]: ---- Adding node15,13 to open list with parent:  
+----------
+Node: 
+	ID: (14,14)
+	Cost: 
+		G: 14.000000
+		H:72.006943
+		F:86.006943
+	Parent:(13,13)
+----------[0m
+[32m[DEBUG] [1620763903.212215682]: ---- Adding node15,14 to open list with parent:  
+----------
+Node: 
+	ID: (14,14)
+	Cost: 
+		G: 14.000000
+		H:72.006943
+		F:86.006943
+	Parent:(13,13)
+----------[0m
+[32m[DEBUG] [1620763903.212271749]: ---- Adding node15,15 to open list with parent:  
+----------
+Node: 
+	ID: (14,14)
+	Cost: 
+		G: 14.000000
+		H:72.006943
+		F:86.006943
+	Parent:(13,13)
+----------[0m
+[32m[DEBUG] [1620763903.212338713]: ---- Adding node14,16 to open list with parent:  
+----------
+Node: 
+	ID: (15,15)
+	Cost: 
+		G: 15.000000
+		H:70.604530
+		F:85.604530
+	Parent:(14,14)
+----------[0m
+[32m[DEBUG] [1620763903.212384405]: ---- Adding node15,16 to open list with parent:  
+----------
+Node: 
+	ID: (15,15)
+	Cost: 
+		G: 15.000000
+		H:70.604530
+		F:85.604530
+	Parent:(14,14)
+----------[0m
+[32m[DEBUG] [1620763903.212422705]: ---- Adding node16,14 to open list with parent:  
+----------
+Node: 
+	ID: (15,15)
+	Cost: 
+		G: 15.000000
+		H:70.604530
+		F:85.604530
+	Parent:(14,14)
+----------[0m
+[32m[DEBUG] [1620763903.212459631]: ---- Adding node16,15 to open list with parent:  
+----------
+Node: 
+	ID: (15,15)
+	Cost: 
+		G: 15.000000
+		H:70.604530
+		F:85.604530
+	Parent:(14,14)
+----------[0m
+[32m[DEBUG] [1620763903.212495923]: ---- Adding node16,16 to open list with parent:  
+----------
+Node: 
+	ID: (15,15)
+	Cost: 
+		G: 15.000000
+		H:70.604530
+		F:85.604530
+	Parent:(14,14)
+----------[0m
+[32m[DEBUG] [1620763903.212552940]: ---- Adding node15,17 to open list with parent:  
+----------
+Node: 
+	ID: (16,16)
+	Cost: 
+		G: 16.000000
+		H:69.202599
+		F:85.202599
+	Parent:(15,15)
+----------[0m
+[32m[DEBUG] [1620763903.212617114]: ---- Adding node16,17 to open list with parent:  
+----------
+Node: 
+	ID: (16,16)
+	Cost: 
+		G: 16.000000
+		H:69.202599
+		F:85.202599
+	Parent:(15,15)
+----------[0m
+[32m[DEBUG] [1620763903.212661583]: ---- Adding node17,15 to open list with parent:  
+----------
+Node: 
+	ID: (16,16)
+	Cost: 
+		G: 16.000000
+		H:69.202599
+		F:85.202599
+	Parent:(15,15)
+----------[0m
+[32m[DEBUG] [1620763903.212698787]: ---- Adding node17,16 to open list with parent:  
+----------
+Node: 
+	ID: (16,16)
+	Cost: 
+		G: 16.000000
+		H:69.202599
+		F:85.202599
+	Parent:(15,15)
+----------[0m
+[32m[DEBUG] [1620763903.212733845]: ---- Adding node17,17 to open list with parent:  
+----------
+Node: 
+	ID: (16,16)
+	Cost: 
+		G: 16.000000
+		H:69.202599
+		F:85.202599
+	Parent:(15,15)
+----------[0m
+[32m[DEBUG] [1620763903.212789278]: ---- Adding node16,18 to open list with parent:  
+----------
+Node: 
+	ID: (17,17)
+	Cost: 
+		G: 17.000000
+		H:67.801178
+		F:84.801178
+	Parent:(16,16)
+----------[0m
+[32m[DEBUG] [1620763903.212831226]: ---- Adding node17,18 to open list with parent:  
+----------
+Node: 
+	ID: (17,17)
+	Cost: 
+		G: 17.000000
+		H:67.801178
+		F:84.801178
+	Parent:(16,16)
+----------[0m
+[32m[DEBUG] [1620763903.212865988]: ---- Adding node18,16 to open list with parent:  
+----------
+Node: 
+	ID: (17,17)
+	Cost: 
+		G: 17.000000
+		H:67.801178
+		F:84.801178
+	Parent:(16,16)
+----------[0m
+[32m[DEBUG] [1620763903.212900486]: ---- Adding node18,17 to open list with parent:  
+----------
+Node: 
+	ID: (17,17)
+	Cost: 
+		G: 17.000000
+		H:67.801178
+		F:84.801178
+	Parent:(16,16)
+----------[0m
+[32m[DEBUG] [1620763903.212934770]: ---- Adding node18,18 to open list with parent:  
+----------
+Node: 
+	ID: (17,17)
+	Cost: 
+		G: 17.000000
+		H:67.801178
+		F:84.801178
+	Parent:(16,16)
+----------[0m
+[32m[DEBUG] [1620763903.212979376]: ---- Adding node17,19 to open list with parent:  
+----------
+Node: 
+	ID: (18,18)
+	Cost: 
+		G: 18.000000
+		H:66.400299
+		F:84.400299
+	Parent:(17,17)
+----------[0m
+[32m[DEBUG] [1620763903.213020231]: ---- Adding node18,19 to open list with parent:  
+----------
+Node: 
+	ID: (18,18)
+	Cost: 
+		G: 18.000000
+		H:66.400299
+		F:84.400299
+	Parent:(17,17)
+----------[0m
+[32m[DEBUG] [1620763903.213054599]: ---- Adding node19,17 to open list with parent:  
+----------
+Node: 
+	ID: (18,18)
+	Cost: 
+		G: 18.000000
+		H:66.400299
+		F:84.400299
+	Parent:(17,17)
+----------[0m
+[32m[DEBUG] [1620763903.213088728]: ---- Adding node19,18 to open list with parent:  
+----------
+Node: 
+	ID: (18,18)
+	Cost: 
+		G: 18.000000
+		H:66.400299
+		F:84.400299
+	Parent:(17,17)
+----------[0m
+[32m[DEBUG] [1620763903.213122886]: ---- Adding node19,19 to open list with parent:  
+----------
+Node: 
+	ID: (18,18)
+	Cost: 
+		G: 18.000000
+		H:66.400299
+		F:84.400299
+	Parent:(17,17)
+----------[0m
+[32m[DEBUG] [1620763903.213167036]: ---- Adding node18,20 to open list with parent:  
+----------
+Node: 
+	ID: (19,19)
+	Cost: 
+		G: 19.000000
+		H:65.000000
+		F:84.000000
+	Parent:(18,18)
+----------[0m
+[32m[DEBUG] [1620763903.213207227]: ---- Adding node19,20 to open list with parent:  
+----------
+Node: 
+	ID: (19,19)
+	Cost: 
+		G: 19.000000
+		H:65.000000
+		F:84.000000
+	Parent:(18,18)
+----------[0m
+[32m[DEBUG] [1620763903.213241150]: ---- Adding node20,18 to open list with parent:  
+----------
+Node: 
+	ID: (19,19)
+	Cost: 
+		G: 19.000000
+		H:65.000000
+		F:84.000000
+	Parent:(18,18)
+----------[0m
+[32m[DEBUG] [1620763903.213285702]: ---- Adding node20,19 to open list with parent:  
+----------
+Node: 
+	ID: (19,19)
+	Cost: 
+		G: 19.000000
+		H:65.000000
+		F:84.000000
+	Parent:(18,18)
+----------[0m
+[32m[DEBUG] [1620763903.229427477]: ---- Adding node20,20 to open list with parent:  
+----------
+Node: 
+	ID: (19,19)
+	Cost: 
+		G: 19.000000
+		H:65.000000
+		F:84.000000
+	Parent:(18,18)
+----------[0m
+[32m[DEBUG] [1620763903.229525858]: ---- Adding node19,21 to open list with parent:  
+----------
+Node: 
+	ID: (20,20)
+	Cost: 
+		G: 20.000000
+		H:63.600315
+		F:83.600311
+	Parent:(19,19)
+----------[0m
+[32m[DEBUG] [1620763903.229572142]: ---- Adding node20,21 to open list with parent:  
+----------
+Node: 
+	ID: (20,20)
+	Cost: 
+		G: 20.000000
+		H:63.600315
+		F:83.600311
+	Parent:(19,19)
+----------[0m
+[32m[DEBUG] [1620763903.229609201]: ---- Adding node21,19 to open list with parent:  
+----------
+Node: 
+	ID: (20,20)
+	Cost: 
+		G: 20.000000
+		H:63.600315
+		F:83.600311
+	Parent:(19,19)
+----------[0m
+[32m[DEBUG] [1620763903.229644505]: ---- Adding node21,20 to open list with parent:  
+----------
+Node: 
+	ID: (20,20)
+	Cost: 
+		G: 20.000000
+		H:63.600315
+		F:83.600311
+	Parent:(19,19)
+----------[0m
+[32m[DEBUG] [1620763903.229678890]: ---- Adding node21,21 to open list with parent:  
+----------
+Node: 
+	ID: (20,20)
+	Cost: 
+		G: 20.000000
+		H:63.600315
+		F:83.600311
+	Parent:(19,19)
+----------[0m
+[32m[DEBUG] [1620763903.229724456]: ---- Adding node20,22 to open list with parent:  
+----------
+Node: 
+	ID: (21,21)
+	Cost: 
+		G: 21.000000
+		H:62.201286
+		F:83.201286
+	Parent:(20,20)
+----------[0m
+[32m[DEBUG] [1620763903.229793503]: ---- Adding node21,22 to open list with parent:  
+----------
+Node: 
+	ID: (21,21)
+	Cost: 
+		G: 21.000000
+		H:62.201286
+		F:83.201286
+	Parent:(20,20)
+----------[0m
+[32m[DEBUG] [1620763903.229829767]: ---- Adding node22,20 to open list with parent:  
+----------
+Node: 
+	ID: (21,21)
+	Cost: 
+		G: 21.000000
+		H:62.201286
+		F:83.201286
+	Parent:(20,20)
+----------[0m
+[32m[DEBUG] [1620763903.229864918]: ---- Adding node22,21 to open list with parent:  
+----------
+Node: 
+	ID: (21,21)
+	Cost: 
+		G: 21.000000
+		H:62.201286
+		F:83.201286
+	Parent:(20,20)
+----------[0m
+[32m[DEBUG] [1620763903.229899038]: ---- Adding node22,22 to open list with parent:  
+----------
+Node: 
+	ID: (21,21)
+	Cost: 
+		G: 21.000000
+		H:62.201286
+		F:83.201286
+	Parent:(20,20)
+----------[0m
+[32m[DEBUG] [1620763903.229944012]: ---- Adding node21,23 to open list with parent:  
+----------
+Node: 
+	ID: (22,22)
+	Cost: 
+		G: 22.000000
+		H:60.802959
+		F:82.802963
+	Parent:(21,21)
+----------[0m
+[32m[DEBUG] [1620763903.229990171]: ---- Adding node22,23 to open list with parent:  
+----------
+Node: 
+	ID: (22,22)
+	Cost: 
+		G: 22.000000
+		H:60.802959
+		F:82.802963
+	Parent:(21,21)
+----------[0m
+[32m[DEBUG] [1620763903.230025598]: ---- Adding node23,21 to open list with parent:  
+----------
+Node: 
+	ID: (22,22)
+	Cost: 
+		G: 22.000000
+		H:60.802959
+		F:82.802963
+	Parent:(21,21)
+----------[0m
+[32m[DEBUG] [1620763903.230059618]: ---- Adding node23,22 to open list with parent:  
+----------
+Node: 
+	ID: (22,22)
+	Cost: 
+		G: 22.000000
+		H:60.802959
+		F:82.802963
+	Parent:(21,21)
+----------[0m
+[32m[DEBUG] [1620763903.230093316]: ---- Adding node23,23 to open list with parent:  
+----------
+Node: 
+	ID: (22,22)
+	Cost: 
+		G: 22.000000
+		H:60.802959
+		F:82.802963
+	Parent:(21,21)
+----------[0m
+[32m[DEBUG] [1620763903.230137811]: ---- Adding node22,24 to open list with parent:  
+----------
+Node: 
+	ID: (23,23)
+	Cost: 
+		G: 23.000000
+		H:59.405388
+		F:82.405388
+	Parent:(22,22)
+----------[0m
+[32m[DEBUG] [1620763903.230178281]: ---- Adding node23,24 to open list with parent:  
+----------
+Node: 
+	ID: (23,23)
+	Cost: 
+		G: 23.000000
+		H:59.405388
+		F:82.405388
+	Parent:(22,22)
+----------[0m
+[32m[DEBUG] [1620763903.230212651]: ---- Adding node24,22 to open list with parent:  
+----------
+Node: 
+	ID: (23,23)
+	Cost: 
+		G: 23.000000
+		H:59.405388
+		F:82.405388
+	Parent:(22,22)
+----------[0m
+[32m[DEBUG] [1620763903.230246343]: ---- Adding node24,23 to open list with parent:  
+----------
+Node: 
+	ID: (23,23)
+	Cost: 
+		G: 23.000000
+		H:59.405388
+		F:82.405388
+	Parent:(22,22)
+----------[0m
+[32m[DEBUG] [1620763903.230280366]: ---- Adding node24,24 to open list with parent:  
+----------
+Node: 
+	ID: (23,23)
+	Cost: 
+		G: 23.000000
+		H:59.405388
+		F:82.405388
+	Parent:(22,22)
+----------[0m
+[32m[DEBUG] [1620763903.230324663]: ---- Adding node23,25 to open list with parent:  
+----------
+Node: 
+	ID: (24,24)
+	Cost: 
+		G: 24.000000
+		H:58.008621
+		F:82.008621
+	Parent:(23,23)
+----------[0m
+[32m[DEBUG] [1620763903.230365235]: ---- Adding node24,25 to open list with parent:  
+----------
+Node: 
+	ID: (24,24)
+	Cost: 
+		G: 24.000000
+		H:58.008621
+		F:82.008621
+	Parent:(23,23)
+----------[0m
+[32m[DEBUG] [1620763903.230399861]: ---- Adding node25,23 to open list with parent:  
+----------
+Node: 
+	ID: (24,24)
+	Cost: 
+		G: 24.000000
+		H:58.008621
+		F:82.008621
+	Parent:(23,23)
+----------[0m
+[32m[DEBUG] [1620763903.230433652]: ---- Adding node25,24 to open list with parent:  
+----------
+Node: 
+	ID: (24,24)
+	Cost: 
+		G: 24.000000
+		H:58.008621
+		F:82.008621
+	Parent:(23,23)
+----------[0m
+[32m[DEBUG] [1620763903.230489610]: ---- Adding node25,25 to open list with parent:  
+----------
+Node: 
+	ID: (24,24)
+	Cost: 
+		G: 24.000000
+		H:58.008621
+		F:82.008621
+	Parent:(23,23)
+----------[0m
+[32m[DEBUG] [1620763903.230558150]: ---- Adding node24,26 to open list with parent:  
+----------
+Node: 
+	ID: (25,25)
+	Cost: 
+		G: 25.000000
+		H:56.612720
+		F:81.612717
+	Parent:(24,24)
+----------[0m
+[32m[DEBUG] [1620763903.230609674]: ---- Adding node25,26 to open list with parent:  
+----------
+Node: 
+	ID: (25,25)
+	Cost: 
+		G: 25.000000
+		H:56.612720
+		F:81.612717
+	Parent:(24,24)
+----------[0m
+[32m[DEBUG] [1620763903.230645230]: ---- Adding node26,24 to open list with parent:  
+----------
+Node: 
+	ID: (25,25)
+	Cost: 
+		G: 25.000000
+		H:56.612720
+		F:81.612717
+	Parent:(24,24)
+----------[0m
+[32m[DEBUG] [1620763903.230679245]: ---- Adding node26,25 to open list with parent:  
+----------
+Node: 
+	ID: (25,25)
+	Cost: 
+		G: 25.000000
+		H:56.612720
+		F:81.612717
+	Parent:(24,24)
+----------[0m
+[32m[DEBUG] [1620763903.230713213]: ---- Adding node26,26 to open list with parent:  
+----------
+Node: 
+	ID: (25,25)
+	Cost: 
+		G: 25.000000
+		H:56.612720
+		F:81.612717
+	Parent:(24,24)
+----------[0m
+[32m[DEBUG] [1620763903.230758275]: ---- Adding node25,27 to open list with parent:  
+----------
+Node: 
+	ID: (26,26)
+	Cost: 
+		G: 26.000000
+		H:55.217751
+		F:81.217751
+	Parent:(25,25)
+----------[0m
+[32m[DEBUG] [1620763903.230798781]: ---- Adding node26,27 to open list with parent:  
+----------
+Node: 
+	ID: (26,26)
+	Cost: 
+		G: 26.000000
+		H:55.217751
+		F:81.217751
+	Parent:(25,25)
+----------[0m
+[32m[DEBUG] [1620763903.230832809]: ---- Adding node27,25 to open list with parent:  
+----------
+Node: 
+	ID: (26,26)
+	Cost: 
+		G: 26.000000
+		H:55.217751
+		F:81.217751
+	Parent:(25,25)
+----------[0m
+[32m[DEBUG] [1620763903.230866706]: ---- Adding node27,26 to open list with parent:  
+----------
+Node: 
+	ID: (26,26)
+	Cost: 
+		G: 26.000000
+		H:55.217751
+		F:81.217751
+	Parent:(25,25)
+----------[0m
+[32m[DEBUG] [1620763903.230900275]: ---- Adding node27,27 to open list with parent:  
+----------
+Node: 
+	ID: (26,26)
+	Cost: 
+		G: 26.000000
+		H:55.217751
+		F:81.217751
+	Parent:(25,25)
+----------[0m
+[32m[DEBUG] [1620763903.230944871]: ---- Adding node26,28 to open list with parent:  
+----------
+Node: 
+	ID: (27,27)
+	Cost: 
+		G: 27.000000
+		H:53.823788
+		F:80.823792
+	Parent:(26,26)
+----------[0m
+[32m[DEBUG] [1620763903.230985345]: ---- Adding node27,28 to open list with parent:  
+----------
+Node: 
+	ID: (27,27)
+	Cost: 
+		G: 27.000000
+		H:53.823788
+		F:80.823792
+	Parent:(26,26)
+----------[0m
+[32m[DEBUG] [1620763903.238704259]: ---- Adding node28,26 to open list with parent:  
+----------
+Node: 
+	ID: (27,27)
+	Cost: 
+		G: 27.000000
+		H:53.823788
+		F:80.823792
+	Parent:(26,26)
+----------[0m
+[32m[DEBUG] [1620763903.238762448]: ---- Adding node28,27 to open list with parent:  
+----------
+Node: 
+	ID: (27,27)
+	Cost: 
+		G: 27.000000
+		H:53.823788
+		F:80.823792
+	Parent:(26,26)
+----------[0m
+[32m[DEBUG] [1620763903.238800349]: ---- Adding node28,28 to open list with parent:  
+----------
+Node: 
+	ID: (27,27)
+	Cost: 
+		G: 27.000000
+		H:53.823788
+		F:80.823792
+	Parent:(26,26)
+----------[0m
+[32m[DEBUG] [1620763903.238848943]: ---- Adding node27,29 to open list with parent:  
+----------
+Node: 
+	ID: (28,28)
+	Cost: 
+		G: 28.000000
+		H:52.430908
+		F:80.430908
+	Parent:(27,27)
+----------[0m
+[32m[DEBUG] [1620763903.238891446]: ---- Adding node28,29 to open list with parent:  
+----------
+Node: 
+	ID: (28,28)
+	Cost: 
+		G: 28.000000
+		H:52.430908
+		F:80.430908
+	Parent:(27,27)
+----------[0m
+[32m[DEBUG] [1620763903.238926714]: ---- Adding node29,27 to open list with parent:  
+----------
+Node: 
+	ID: (28,28)
+	Cost: 
+		G: 28.000000
+		H:52.430908
+		F:80.430908
+	Parent:(27,27)
+----------[0m
+[32m[DEBUG] [1620763903.238961508]: ---- Adding node29,28 to open list with parent:  
+----------
+Node: 
+	ID: (28,28)
+	Cost: 
+		G: 28.000000
+		H:52.430908
+		F:80.430908
+	Parent:(27,27)
+----------[0m
+[32m[DEBUG] [1620763903.238995919]: ---- Adding node29,29 to open list with parent:  
+----------
+Node: 
+	ID: (28,28)
+	Cost: 
+		G: 28.000000
+		H:52.430908
+		F:80.430908
+	Parent:(27,27)
+----------[0m
+[32m[DEBUG] [1620763903.239041517]: ---- Adding node28,30 to open list with parent:  
+----------
+Node: 
+	ID: (29,29)
+	Cost: 
+		G: 29.000000
+		H:51.039200
+		F:80.039200
+	Parent:(28,28)
+----------[0m
+[32m[DEBUG] [1620763903.239082639]: ---- Adding node29,30 to open list with parent:  
+----------
+Node: 
+	ID: (29,29)
+	Cost: 
+		G: 29.000000
+		H:51.039200
+		F:80.039200
+	Parent:(28,28)
+----------[0m
+[32m[DEBUG] [1620763903.239136159]: ---- Adding node30,28 to open list with parent:  
+----------
+Node: 
+	ID: (29,29)
+	Cost: 
+		G: 29.000000
+		H:51.039200
+		F:80.039200
+	Parent:(28,28)
+----------[0m
+[32m[DEBUG] [1620763903.239171765]: ---- Adding node30,29 to open list with parent:  
+----------
+Node: 
+	ID: (29,29)
+	Cost: 
+		G: 29.000000
+		H:51.039200
+		F:80.039200
+	Parent:(28,28)
+----------[0m
+[32m[DEBUG] [1620763903.239206024]: ---- Adding node30,30 to open list with parent:  
+----------
+Node: 
+	ID: (29,29)
+	Cost: 
+		G: 29.000000
+		H:51.039200
+		F:80.039200
+	Parent:(28,28)
+----------[0m
+[32m[DEBUG] [1620763903.239252099]: ---- Adding node29,31 to open list with parent:  
+----------
+Node: 
+	ID: (30,30)
+	Cost: 
+		G: 30.000000
+		H:49.648766
+		F:79.648766
+	Parent:(29,29)
+----------[0m
+[32m[DEBUG] [1620763903.239298953]: ---- Adding node30,31 to open list with parent:  
+----------
+Node: 
+	ID: (30,30)
+	Cost: 
+		G: 30.000000
+		H:49.648766
+		F:79.648766
+	Parent:(29,29)
+----------[0m
+[32m[DEBUG] [1620763903.239334070]: ---- Adding node31,29 to open list with parent:  
+----------
+Node: 
+	ID: (30,30)
+	Cost: 
+		G: 30.000000
+		H:49.648766
+		F:79.648766
+	Parent:(29,29)
+----------[0m
+[32m[DEBUG] [1620763903.239368430]: ---- Adding node31,30 to open list with parent:  
+----------
+Node: 
+	ID: (30,30)
+	Cost: 
+		G: 30.000000
+		H:49.648766
+		F:79.648766
+	Parent:(29,29)
+----------[0m
+[32m[DEBUG] [1620763903.239402234]: ---- Adding node31,31 to open list with parent:  
+----------
+Node: 
+	ID: (30,30)
+	Cost: 
+		G: 30.000000
+		H:49.648766
+		F:79.648766
+	Parent:(29,29)
+----------[0m
+[32m[DEBUG] [1620763903.239447536]: ---- Adding node30,32 to open list with parent:  
+----------
+Node: 
+	ID: (31,31)
+	Cost: 
+		G: 31.000000
+		H:48.259712
+		F:79.259712
+	Parent:(30,30)
+----------[0m
+[32m[DEBUG] [1620763903.239488361]: ---- Adding node31,32 to open list with parent:  
+----------
+Node: 
+	ID: (31,31)
+	Cost: 
+		G: 31.000000
+		H:48.259712
+		F:79.259712
+	Parent:(30,30)
+----------[0m
+[32m[DEBUG] [1620763903.239522480]: ---- Adding node32,30 to open list with parent:  
+----------
+Node: 
+	ID: (31,31)
+	Cost: 
+		G: 31.000000
+		H:48.259712
+		F:79.259712
+	Parent:(30,30)
+----------[0m
+[32m[DEBUG] [1620763903.239556264]: ---- Adding node32,31 to open list with parent:  
+----------
+Node: 
+	ID: (31,31)
+	Cost: 
+		G: 31.000000
+		H:48.259712
+		F:79.259712
+	Parent:(30,30)
+----------[0m
+[32m[DEBUG] [1620763903.239589972]: ---- Adding node32,32 to open list with parent:  
+----------
+Node: 
+	ID: (31,31)
+	Cost: 
+		G: 31.000000
+		H:48.259712
+		F:79.259712
+	Parent:(30,30)
+----------[0m
+[32m[DEBUG] [1620763903.239634844]: ---- Adding node31,33 to open list with parent:  
+----------
+Node: 
+	ID: (32,32)
+	Cost: 
+		G: 32.000000
+		H:46.872166
+		F:78.872162
+	Parent:(31,31)
+----------[0m
+[32m[DEBUG] [1620763903.239738055]: ---- Adding node32,33 to open list with parent:  
+----------
+Node: 
+	ID: (32,32)
+	Cost: 
+		G: 32.000000
+		H:46.872166
+		F:78.872162
+	Parent:(31,31)
+----------[0m
+[32m[DEBUG] [1620763903.239782369]: ---- Adding node33,31 to open list with parent:  
+----------
+Node: 
+	ID: (32,32)
+	Cost: 
+		G: 32.000000
+		H:46.872166
+		F:78.872162
+	Parent:(31,31)
+----------[0m
+[32m[DEBUG] [1620763903.239823792]: ---- Adding node33,32 to open list with parent:  
+----------
+Node: 
+	ID: (32,32)
+	Cost: 
+		G: 32.000000
+		H:46.872166
+		F:78.872162
+	Parent:(31,31)
+----------[0m
+[32m[DEBUG] [1620763903.239860422]: ---- Adding node33,33 to open list with parent:  
+----------
+Node: 
+	ID: (32,32)
+	Cost: 
+		G: 32.000000
+		H:46.872166
+		F:78.872162
+	Parent:(31,31)
+----------[0m
+[32m[DEBUG] [1620763903.239907308]: ---- Adding node32,34 to open list with parent:  
+----------
+Node: 
+	ID: (33,33)
+	Cost: 
+		G: 33.000000
+		H:45.486263
+		F:78.486267
+	Parent:(32,32)
+----------[0m
+[32m[DEBUG] [1620763903.239948595]: ---- Adding node33,34 to open list with parent:  
+----------
+Node: 
+	ID: (33,33)
+	Cost: 
+		G: 33.000000
+		H:45.486263
+		F:78.486267
+	Parent:(32,32)
+----------[0m
+[32m[DEBUG] [1620763903.239998713]: ---- Adding node34,32 to open list with parent:  
+----------
+Node: 
+	ID: (33,33)
+	Cost: 
+		G: 33.000000
+		H:45.486263
+		F:78.486267
+	Parent:(32,32)
+----------[0m
+[32m[DEBUG] [1620763903.240034046]: ---- Adding node34,33 to open list with parent:  
+----------
+Node: 
+	ID: (33,33)
+	Cost: 
+		G: 33.000000
+		H:45.486263
+		F:78.486267
+	Parent:(32,32)
+----------[0m
+[32m[DEBUG] [1620763903.240068824]: ---- Adding node34,34 to open list with parent:  
+----------
+Node: 
+	ID: (33,33)
+	Cost: 
+		G: 33.000000
+		H:45.486263
+		F:78.486267
+	Parent:(32,32)
+----------[0m
+[32m[DEBUG] [1620763903.240114572]: ---- Adding node33,35 to open list with parent:  
+----------
+Node: 
+	ID: (34,34)
+	Cost: 
+		G: 34.000000
+		H:44.102154
+		F:78.102158
+	Parent:(33,33)
+----------[0m
+[32m[DEBUG] [1620763903.240155886]: ---- Adding node34,35 to open list with parent:  
+----------
+Node: 
+	ID: (34,34)
+	Cost: 
+		G: 34.000000
+		H:44.102154
+		F:78.102158
+	Parent:(33,33)
+----------[0m
+[32m[DEBUG] [1620763903.240190495]: ---- Adding node35,33 to open list with parent:  
+----------
+Node: 
+	ID: (34,34)
+	Cost: 
+		G: 34.000000
+		H:44.102154
+		F:78.102158
+	Parent:(33,33)
+----------[0m
+[32m[DEBUG] [1620763903.240224441]: ---- Adding node35,34 to open list with parent:  
+----------
+Node: 
+	ID: (34,34)
+	Cost: 
+		G: 34.000000
+		H:44.102154
+		F:78.102158
+	Parent:(33,33)
+----------[0m
+[32m[DEBUG] [1620763903.240258417]: ---- Adding node35,35 to open list with parent:  
+----------
+Node: 
+	ID: (34,34)
+	Cost: 
+		G: 34.000000
+		H:44.102154
+		F:78.102158
+	Parent:(33,33)
+----------[0m
+[32m[DEBUG] [1620763903.240303724]: ---- Adding node34,36 to open list with parent:  
+----------
+Node: 
+	ID: (35,35)
+	Cost: 
+		G: 35.000000
+		H:42.720020
+		F:77.720016
+	Parent:(34,34)
+----------[0m
+[32m[DEBUG] [1620763903.240344563]: ---- Adding node35,36 to open list with parent:  
+----------
+Node: 
+	ID: (35,35)
+	Cost: 
+		G: 35.000000
+		H:42.720020
+		F:77.720016
+	Parent:(34,34)
+----------[0m
+[32m[DEBUG] [1620763903.240379838]: ---- Adding node36,34 to open list with parent:  
+----------
+Node: 
+	ID: (35,35)
+	Cost: 
+		G: 35.000000
+		H:42.720020
+		F:77.720016
+	Parent:(34,34)
+----------[0m
+[32m[DEBUG] [1620763903.240413761]: ---- Adding node36,35 to open list with parent:  
+----------
+Node: 
+	ID: (35,35)
+	Cost: 
+		G: 35.000000
+		H:42.720020
+		F:77.720016
+	Parent:(34,34)
+----------[0m
+[32m[DEBUG] [1620763903.240447832]: ---- Adding node36,36 to open list with parent:  
+----------
+Node: 
+	ID: (35,35)
+	Cost: 
+		G: 35.000000
+		H:42.720020
+		F:77.720016
+	Parent:(34,34)
+----------[0m
+[32m[DEBUG] [1620763903.240497796]: ---- Adding node35,37 to open list with parent:  
+----------
+Node: 
+	ID: (36,36)
+	Cost: 
+		G: 36.000000
+		H:41.340054
+		F:77.340057
+	Parent:(35,35)
+----------[0m
+[32m[DEBUG] [1620763903.240539239]: ---- Adding node36,37 to open list with parent:  
+----------
+Node: 
+	ID: (36,36)
+	Cost: 
+		G: 36.000000
+		H:41.340054
+		F:77.340057
+	Parent:(35,35)
+----------[0m
+[32m[DEBUG] [1620763903.240573968]: ---- Adding node37,35 to open list with parent:  
+----------
+Node: 
+	ID: (36,36)
+	Cost: 
+		G: 36.000000
+		H:41.340054
+		F:77.340057
+	Parent:(35,35)
+----------[0m
+[32m[DEBUG] [1620763903.240608168]: ---- Adding node37,36 to open list with parent:  
+----------
+Node: 
+	ID: (36,36)
+	Cost: 
+		G: 36.000000
+		H:41.340054
+		F:77.340057
+	Parent:(35,35)
+----------[0m
+[32m[DEBUG] [1620763903.240642258]: ---- Adding node37,37 to open list with parent:  
+----------
+Node: 
+	ID: (36,36)
+	Cost: 
+		G: 36.000000
+		H:41.340054
+		F:77.340057
+	Parent:(35,35)
+----------[0m
+[32m[DEBUG] [1620763903.240688125]: ---- Adding node36,38 to open list with parent:  
+----------
+Node: 
+	ID: (37,37)
+	Cost: 
+		G: 37.000000
+		H:39.962482
+		F:76.962479
+	Parent:(36,36)
+----------[0m
+[32m[DEBUG] [1620763903.240729074]: ---- Adding node37,38 to open list with parent:  
+----------
+Node: 
+	ID: (37,37)
+	Cost: 
+		G: 37.000000
+		H:39.962482
+		F:76.962479
+	Parent:(36,36)
+----------[0m
+[32m[DEBUG] [1620763903.240763920]: ---- Adding node38,36 to open list with parent:  
+----------
+Node: 
+	ID: (37,37)
+	Cost: 
+		G: 37.000000
+		H:39.962482
+		F:76.962479
+	Parent:(36,36)
+----------[0m
+[32m[DEBUG] [1620763903.240808239]: ---- Adding node38,37 to open list with parent:  
+----------
+Node: 
+	ID: (37,37)
+	Cost: 
+		G: 37.000000
+		H:39.962482
+		F:76.962479
+	Parent:(36,36)
+----------[0m
+[32m[DEBUG] [1620763903.240854065]: ---- Adding node38,38 to open list with parent:  
+----------
+Node: 
+	ID: (37,37)
+	Cost: 
+		G: 37.000000
+		H:39.962482
+		F:76.962479
+	Parent:(36,36)
+----------[0m
+[32m[DEBUG] [1620763903.240910256]: ---- Adding node37,39 to open list with parent:  
+----------
+Node: 
+	ID: (38,38)
+	Cost: 
+		G: 38.000000
+		H:38.587563
+		F:76.587563
+	Parent:(37,37)
+----------[0m
+[32m[DEBUG] [1620763903.240951647]: ---- Adding node38,39 to open list with parent:  
+----------
+Node: 
+	ID: (38,38)
+	Cost: 
+		G: 38.000000
+		H:38.587563
+		F:76.587563
+	Parent:(37,37)
+----------[0m
+[32m[DEBUG] [1620763903.240986283]: ---- Adding node39,37 to open list with parent:  
+----------
+Node: 
+	ID: (38,38)
+	Cost: 
+		G: 38.000000
+		H:38.587563
+		F:76.587563
+	Parent:(37,37)
+----------[0m
+[32m[DEBUG] [1620763903.241020485]: ---- Adding node39,38 to open list with parent:  
+----------
+Node: 
+	ID: (38,38)
+	Cost: 
+		G: 38.000000
+		H:38.587563
+		F:76.587563
+	Parent:(37,37)
+----------[0m
+[32m[DEBUG] [1620763903.241054763]: ---- Adding node39,39 to open list with parent:  
+----------
+Node: 
+	ID: (38,38)
+	Cost: 
+		G: 38.000000
+		H:38.587563
+		F:76.587563
+	Parent:(37,37)
+----------[0m
+[32m[DEBUG] [1620763903.241100032]: ---- Adding node38,40 to open list with parent:  
+----------
+Node: 
+	ID: (39,39)
+	Cost: 
+		G: 39.000000
+		H:37.215588
+		F:76.215591
+	Parent:(38,38)
+----------[0m
+[32m[DEBUG] [1620763903.241140774]: ---- Adding node39,40 to open list with parent:  
+----------
+Node: 
+	ID: (39,39)
+	Cost: 
+		G: 39.000000
+		H:37.215588
+		F:76.215591
+	Parent:(38,38)
+----------[0m
+[32m[DEBUG] [1620763903.241175334]: ---- Adding node40,38 to open list with parent:  
+----------
+Node: 
+	ID: (39,39)
+	Cost: 
+		G: 39.000000
+		H:37.215588
+		F:76.215591
+	Parent:(38,38)
+----------[0m
+[32m[DEBUG] [1620763903.241209718]: ---- Adding node40,39 to open list with parent:  
+----------
+Node: 
+	ID: (39,39)
+	Cost: 
+		G: 39.000000
+		H:37.215588
+		F:76.215591
+	Parent:(38,38)
+----------[0m
+[32m[DEBUG] [1620763903.241243948]: ---- Adding node40,40 to open list with parent:  
+----------
+Node: 
+	ID: (39,39)
+	Cost: 
+		G: 39.000000
+		H:37.215588
+		F:76.215591
+	Parent:(38,38)
+----------[0m
+[32m[DEBUG] [1620763903.241289441]: ---- Adding node39,41 to open list with parent:  
+----------
+Node: 
+	ID: (40,40)
+	Cost: 
+		G: 40.000000
+		H:35.846897
+		F:75.846893
+	Parent:(39,39)
+----------[0m
+[32m[DEBUG] [1620763903.241330652]: ---- Adding node40,41 to open list with parent:  
+----------
+Node: 
+	ID: (40,40)
+	Cost: 
+		G: 40.000000
+		H:35.846897
+		F:75.846893
+	Parent:(39,39)
+----------[0m
+[32m[DEBUG] [1620763903.241365065]: ---- Adding node41,39 to open list with parent:  
+----------
+Node: 
+	ID: (40,40)
+	Cost: 
+		G: 40.000000
+		H:35.846897
+		F:75.846893
+	Parent:(39,39)
+----------[0m
+[32m[DEBUG] [1620763903.241399391]: ---- Adding node41,40 to open list with parent:  
+----------
+Node: 
+	ID: (40,40)
+	Cost: 
+		G: 40.000000
+		H:35.846897
+		F:75.846893
+	Parent:(39,39)
+----------[0m
+[32m[DEBUG] [1620763903.241433405]: ---- Adding node41,41 to open list with parent:  
+----------
+Node: 
+	ID: (40,40)
+	Cost: 
+		G: 40.000000
+		H:35.846897
+		F:75.846893
+	Parent:(39,39)
+----------[0m
+[32m[DEBUG] [1620763903.241478511]: ---- Adding node40,42 to open list with parent:  
+----------
+Node: 
+	ID: (41,41)
+	Cost: 
+		G: 41.000000
+		H:34.481880
+		F:75.481880
+	Parent:(40,40)
+----------[0m
+[32m[DEBUG] [1620763903.241519189]: ---- Adding node41,42 to open list with parent:  
+----------
+Node: 
+	ID: (41,41)
+	Cost: 
+		G: 41.000000
+		H:34.481880
+		F:75.481880
+	Parent:(40,40)
+----------[0m
+[32m[DEBUG] [1620763903.241553898]: ---- Adding node42,40 to open list with parent:  
+----------
+Node: 
+	ID: (41,41)
+	Cost: 
+		G: 41.000000
+		H:34.481880
+		F:75.481880
+	Parent:(40,40)
+----------[0m
+[32m[DEBUG] [1620763903.241597744]: ---- Adding node42,41 to open list with parent:  
+----------
+Node: 
+	ID: (41,41)
+	Cost: 
+		G: 41.000000
+		H:34.481880
+		F:75.481880
+	Parent:(40,40)
+----------[0m
+[32m[DEBUG] [1620763903.241632596]: ---- Adding node42,42 to open list with parent:  
+----------
+Node: 
+	ID: (41,41)
+	Cost: 
+		G: 41.000000
+		H:34.481880
+		F:75.481880
+	Parent:(40,40)
+----------[0m
+[32m[DEBUG] [1620763903.241678691]: ---- Adding node41,43 to open list with parent:  
+----------
+Node: 
+	ID: (42,42)
+	Cost: 
+		G: 42.000000
+		H:33.120991
+		F:75.120987
+	Parent:(41,41)
+----------[0m
+[32m[DEBUG] [1620763903.241719635]: ---- Adding node42,43 to open list with parent:  
+----------
+Node: 
+	ID: (42,42)
+	Cost: 
+		G: 42.000000
+		H:33.120991
+		F:75.120987
+	Parent:(41,41)
+----------[0m
+[32m[DEBUG] [1620763903.241754228]: ---- Adding node43,41 to open list with parent:  
+----------
+Node: 
+	ID: (42,42)
+	Cost: 
+		G: 42.000000
+		H:33.120991
+		F:75.120987
+	Parent:(41,41)
+----------[0m
+[32m[DEBUG] [1620763903.241836279]: ---- Adding node43,42 to open list with parent:  
+----------
+Node: 
+	ID: (42,42)
+	Cost: 
+		G: 42.000000
+		H:33.120991
+		F:75.120987
+	Parent:(41,41)
+----------[0m
+[32m[DEBUG] [1620763903.248683886]: ---- Adding node43,43 to open list with parent:  
+----------
+Node: 
+	ID: (42,42)
+	Cost: 
+		G: 42.000000
+		H:33.120991
+		F:75.120987
+	Parent:(41,41)
+----------[0m
+[32m[DEBUG] [1620763903.248750256]: ---- Adding node42,44 to open list with parent:  
+----------
+Node: 
+	ID: (43,43)
+	Cost: 
+		G: 43.000000
+		H:31.764761
+		F:74.764763
+	Parent:(42,42)
+----------[0m
+[32m[DEBUG] [1620763903.248796331]: ---- Adding node43,44 to open list with parent:  
+----------
+Node: 
+	ID: (43,43)
+	Cost: 
+		G: 43.000000
+		H:31.764761
+		F:74.764763
+	Parent:(42,42)
+----------[0m
+[32m[DEBUG] [1620763903.248833593]: ---- Adding node44,42 to open list with parent:  
+----------
+Node: 
+	ID: (43,43)
+	Cost: 
+		G: 43.000000
+		H:31.764761
+		F:74.764763
+	Parent:(42,42)
+----------[0m
+[32m[DEBUG] [1620763903.248868717]: ---- Adding node44,43 to open list with parent:  
+----------
+Node: 
+	ID: (43,43)
+	Cost: 
+		G: 43.000000
+		H:31.764761
+		F:74.764763
+	Parent:(42,42)
+----------[0m
+[32m[DEBUG] [1620763903.248903569]: ---- Adding node44,44 to open list with parent:  
+----------
+Node: 
+	ID: (43,43)
+	Cost: 
+		G: 43.000000
+		H:31.764761
+		F:74.764763
+	Parent:(42,42)
+----------[0m
+[32m[DEBUG] [1620763903.248966821]: ---- Adding node43,45 to open list with parent:  
+----------
+Node: 
+	ID: (44,44)
+	Cost: 
+		G: 44.000000
+		H:30.413813
+		F:74.413811
+	Parent:(43,43)
+----------[0m
+[32m[DEBUG] [1620763903.249040305]: ---- Adding node44,45 to open list with parent:  
+----------
+Node: 
+	ID: (44,44)
+	Cost: 
+		G: 44.000000
+		H:30.413813
+		F:74.413811
+	Parent:(43,43)
+----------[0m
+[32m[DEBUG] [1620763903.249075079]: ---- Adding node45,43 to open list with parent:  
+----------
+Node: 
+	ID: (44,44)
+	Cost: 
+		G: 44.000000
+		H:30.413813
+		F:74.413811
+	Parent:(43,43)
+----------[0m
+[32m[DEBUG] [1620763903.249109617]: ---- Adding node45,44 to open list with parent:  
+----------
+Node: 
+	ID: (44,44)
+	Cost: 
+		G: 44.000000
+		H:30.413813
+		F:74.413811
+	Parent:(43,43)
+----------[0m
+[32m[DEBUG] [1620763903.249143660]: ---- Adding node45,45 to open list with parent:  
+----------
+Node: 
+	ID: (44,44)
+	Cost: 
+		G: 44.000000
+		H:30.413813
+		F:74.413811
+	Parent:(43,43)
+----------[0m
+[32m[DEBUG] [1620763903.249189518]: ---- Adding node44,46 to open list with parent:  
+----------
+Node: 
+	ID: (45,45)
+	Cost: 
+		G: 45.000000
+		H:29.068884
+		F:74.068886
+	Parent:(44,44)
+----------[0m
+[32m[DEBUG] [1620763903.249268085]: ---- Adding node45,46 to open list with parent:  
+----------
+Node: 
+	ID: (45,45)
+	Cost: 
+		G: 45.000000
+		H:29.068884
+		F:74.068886
+	Parent:(44,44)
+----------[0m
+[32m[DEBUG] [1620763903.249313292]: ---- Adding node46,44 to open list with parent:  
+----------
+Node: 
+	ID: (45,45)
+	Cost: 
+		G: 45.000000
+		H:29.068884
+		F:74.068886
+	Parent:(44,44)
+----------[0m
+[32m[DEBUG] [1620763903.249349089]: ---- Adding node46,45 to open list with parent:  
+----------
+Node: 
+	ID: (45,45)
+	Cost: 
+		G: 45.000000
+		H:29.068884
+		F:74.068886
+	Parent:(44,44)
+----------[0m
+[32m[DEBUG] [1620763903.249405534]: ---- Adding node46,46 to open list with parent:  
+----------
+Node: 
+	ID: (45,45)
+	Cost: 
+		G: 45.000000
+		H:29.068884
+		F:74.068886
+	Parent:(44,44)
+----------[0m
+[32m[DEBUG] [1620763903.249453890]: ---- Adding node45,47 to open list with parent:  
+----------
+Node: 
+	ID: (46,46)
+	Cost: 
+		G: 46.000000
+		H:27.730848
+		F:73.730850
+	Parent:(45,45)
+----------[0m
+[32m[DEBUG] [1620763903.249495780]: ---- Adding node46,47 to open list with parent:  
+----------
+Node: 
+	ID: (46,46)
+	Cost: 
+		G: 46.000000
+		H:27.730848
+		F:73.730850
+	Parent:(45,45)
+----------[0m
+[32m[DEBUG] [1620763903.249530978]: ---- Adding node47,45 to open list with parent:  
+----------
+Node: 
+	ID: (46,46)
+	Cost: 
+		G: 46.000000
+		H:27.730848
+		F:73.730850
+	Parent:(45,45)
+----------[0m
+[32m[DEBUG] [1620763903.249565580]: ---- Adding node47,46 to open list with parent:  
+----------
+Node: 
+	ID: (46,46)
+	Cost: 
+		G: 46.000000
+		H:27.730848
+		F:73.730850
+	Parent:(45,45)
+----------[0m
+[32m[DEBUG] [1620763903.249599639]: ---- Adding node47,47 to open list with parent:  
+----------
+Node: 
+	ID: (46,46)
+	Cost: 
+		G: 46.000000
+		H:27.730848
+		F:73.730850
+	Parent:(45,45)
+----------[0m
+[32m[DEBUG] [1620763903.249645741]: ---- Adding node46,48 to open list with parent:  
+----------
+Node: 
+	ID: (47,47)
+	Cost: 
+		G: 47.000000
+		H:26.400757
+		F:73.400757
+	Parent:(46,46)
+----------[0m
+[32m[DEBUG] [1620763903.249686812]: ---- Adding node47,48 to open list with parent:  
+----------
+Node: 
+	ID: (47,47)
+	Cost: 
+		G: 47.000000
+		H:26.400757
+		F:73.400757
+	Parent:(46,46)
+----------[0m
+[32m[DEBUG] [1620763903.249721395]: ---- Adding node48,46 to open list with parent:  
+----------
+Node: 
+	ID: (47,47)
+	Cost: 
+		G: 47.000000
+		H:26.400757
+		F:73.400757
+	Parent:(46,46)
+----------[0m
+[32m[DEBUG] [1620763903.249755438]: ---- Adding node48,47 to open list with parent:  
+----------
+Node: 
+	ID: (47,47)
+	Cost: 
+		G: 47.000000
+		H:26.400757
+		F:73.400757
+	Parent:(46,46)
+----------[0m
+[32m[DEBUG] [1620763903.252118897]: ---- Adding node48,48 to open list with parent:  
+----------
+Node: 
+	ID: (47,47)
+	Cost: 
+		G: 47.000000
+		H:26.400757
+		F:73.400757
+	Parent:(46,46)
+----------[0m
+[32m[DEBUG] [1620763903.252182701]: ---- Adding node47,49 to open list with parent:  
+----------
+Node: 
+	ID: (48,48)
+	Cost: 
+		G: 48.000000
+		H:25.079872
+		F:73.079872
+	Parent:(47,47)
+----------[0m
+[32m[DEBUG] [1620763903.252232331]: ---- Adding node48,49 to open list with parent:  
+----------
+Node: 
+	ID: (48,48)
+	Cost: 
+		G: 48.000000
+		H:25.079872
+		F:73.079872
+	Parent:(47,47)
+----------[0m
+[32m[DEBUG] [1620763903.252272789]: ---- Adding node49,47 to open list with parent:  
+----------
+Node: 
+	ID: (48,48)
+	Cost: 
+		G: 48.000000
+		H:25.079872
+		F:73.079872
+	Parent:(47,47)
+----------[0m
+[32m[DEBUG] [1620763903.252312897]: ---- Adding node49,48 to open list with parent:  
+----------
+Node: 
+	ID: (48,48)
+	Cost: 
+		G: 48.000000
+		H:25.079872
+		F:73.079872
+	Parent:(47,47)
+----------[0m
+[32m[DEBUG] [1620763903.252351744]: ---- Adding node49,49 to open list with parent:  
+----------
+Node: 
+	ID: (48,48)
+	Cost: 
+		G: 48.000000
+		H:25.079872
+		F:73.079872
+	Parent:(47,47)
+----------[0m
+[32m[DEBUG] [1620763903.252405049]: ---- Adding node48,50 to open list with parent:  
+----------
+Node: 
+	ID: (49,49)
+	Cost: 
+		G: 49.000000
+		H:23.769728
+		F:72.769730
+	Parent:(48,48)
+----------[0m
+[32m[DEBUG] [1620763903.252452677]: ---- Adding node49,50 to open list with parent:  
+----------
+Node: 
+	ID: (49,49)
+	Cost: 
+		G: 49.000000
+		H:23.769728
+		F:72.769730
+	Parent:(48,48)
+----------[0m
+[32m[DEBUG] [1620763903.252492485]: ---- Adding node50,48 to open list with parent:  
+----------
+Node: 
+	ID: (49,49)
+	Cost: 
+		G: 49.000000
+		H:23.769728
+		F:72.769730
+	Parent:(48,48)
+----------[0m
+[32m[DEBUG] [1620763903.252531411]: ---- Adding node50,49 to open list with parent:  
+----------
+Node: 
+	ID: (49,49)
+	Cost: 
+		G: 49.000000
+		H:23.769728
+		F:72.769730
+	Parent:(48,48)
+----------[0m
+[32m[DEBUG] [1620763903.252589786]: ---- Adding node50,50 to open list with parent:  
+----------
+Node: 
+	ID: (49,49)
+	Cost: 
+		G: 49.000000
+		H:23.769728
+		F:72.769730
+	Parent:(48,48)
+----------[0m
+[32m[DEBUG] [1620763903.252643652]: ---- Adding node49,51 to open list with parent:  
+----------
+Node: 
+	ID: (50,50)
+	Cost: 
+		G: 50.000000
+		H:22.472204
+		F:72.472206
+	Parent:(49,49)
+----------[0m
+[32m[DEBUG] [1620763903.252690285]: ---- Adding node50,51 to open list with parent:  
+----------
+Node: 
+	ID: (50,50)
+	Cost: 
+		G: 50.000000
+		H:22.472204
+		F:72.472206
+	Parent:(49,49)
+----------[0m
+[32m[DEBUG] [1620763903.252729128]: ---- Adding node51,49 to open list with parent:  
+----------
+Node: 
+	ID: (50,50)
+	Cost: 
+		G: 50.000000
+		H:22.472204
+		F:72.472206
+	Parent:(49,49)
+----------[0m
+[32m[DEBUG] [1620763903.252767631]: ---- Adding node51,50 to open list with parent:  
+----------
+Node: 
+	ID: (50,50)
+	Cost: 
+		G: 50.000000
+		H:22.472204
+		F:72.472206
+	Parent:(49,49)
+----------[0m
+[32m[DEBUG] [1620763903.252805939]: ---- Adding node51,51 to open list with parent:  
+----------
+Node: 
+	ID: (50,50)
+	Cost: 
+		G: 50.000000
+		H:22.472204
+		F:72.472206
+	Parent:(49,49)
+----------[0m
+[32m[DEBUG] [1620763903.252857443]: ---- Adding node50,52 to open list with parent:  
+----------
+Node: 
+	ID: (51,51)
+	Cost: 
+		G: 51.000000
+		H:21.189621
+		F:72.189621
+	Parent:(50,50)
+----------[0m
+[32m[DEBUG] [1620763903.252903343]: ---- Adding node51,52 to open list with parent:  
+----------
+Node: 
+	ID: (51,51)
+	Cost: 
+		G: 51.000000
+		H:21.189621
+		F:72.189621
+	Parent:(50,50)
+----------[0m
+[32m[DEBUG] [1620763903.252949670]: ---- Adding node52,50 to open list with parent:  
+----------
+Node: 
+	ID: (51,51)
+	Cost: 
+		G: 51.000000
+		H:21.189621
+		F:72.189621
+	Parent:(50,50)
+----------[0m
+[32m[DEBUG] [1620763903.252983283]: ---- Adding node52,51 to open list with parent:  
+----------
+Node: 
+	ID: (51,51)
+	Cost: 
+		G: 51.000000
+		H:21.189621
+		F:72.189621
+	Parent:(50,50)
+----------[0m
+[32m[DEBUG] [1620763903.253016861]: ---- Adding node52,52 to open list with parent:  
+----------
+Node: 
+	ID: (51,51)
+	Cost: 
+		G: 51.000000
+		H:21.189621
+		F:72.189621
+	Parent:(50,50)
+----------[0m
+[32m[DEBUG] [1620763903.253067478]: ---- Adding node51,53 to open list with parent:  
+----------
+Node: 
+	ID: (52,52)
+	Cost: 
+		G: 52.000000
+		H:19.924858
+		F:71.924858
+	Parent:(51,51)
+----------[0m
+[32m[DEBUG] [1620763903.253108397]: ---- Adding node52,53 to open list with parent:  
+----------
+Node: 
+	ID: (52,52)
+	Cost: 
+		G: 52.000000
+		H:19.924858
+		F:71.924858
+	Parent:(51,51)
+----------[0m
+[32m[DEBUG] [1620763903.253142653]: ---- Adding node53,51 to open list with parent:  
+----------
+Node: 
+	ID: (52,52)
+	Cost: 
+		G: 52.000000
+		H:19.924858
+		F:71.924858
+	Parent:(51,51)
+----------[0m
+[32m[DEBUG] [1620763903.253176415]: ---- Adding node53,52 to open list with parent:  
+----------
+Node: 
+	ID: (52,52)
+	Cost: 
+		G: 52.000000
+		H:19.924858
+		F:71.924858
+	Parent:(51,51)
+----------[0m
+[32m[DEBUG] [1620763903.253210030]: ---- Adding node53,53 to open list with parent:  
+----------
+Node: 
+	ID: (52,52)
+	Cost: 
+		G: 52.000000
+		H:19.924858
+		F:71.924858
+	Parent:(51,51)
+----------[0m
+[32m[DEBUG] [1620763903.253255173]: ---- Adding node52,54 to open list with parent:  
+----------
+Node: 
+	ID: (53,53)
+	Cost: 
+		G: 53.000000
+		H:18.681541
+		F:71.681541
+	Parent:(52,52)
+----------[0m
+[32m[DEBUG] [1620763903.253295522]: ---- Adding node53,54 to open list with parent:  
+----------
+Node: 
+	ID: (53,53)
+	Cost: 
+		G: 53.000000
+		H:18.681541
+		F:71.681541
+	Parent:(52,52)
+----------[0m
+[32m[DEBUG] [1620763903.253329657]: ---- Adding node54,52 to open list with parent:  
+----------
+Node: 
+	ID: (53,53)
+	Cost: 
+		G: 53.000000
+		H:18.681541
+		F:71.681541
+	Parent:(52,52)
+----------[0m
+[32m[DEBUG] [1620763903.253363042]: ---- Adding node54,53 to open list with parent:  
+----------
+Node: 
+	ID: (53,53)
+	Cost: 
+		G: 53.000000
+		H:18.681541
+		F:71.681541
+	Parent:(52,52)
+----------[0m
+[32m[DEBUG] [1620763903.253396451]: ---- Adding node54,54 to open list with parent:  
+----------
+Node: 
+	ID: (53,53)
+	Cost: 
+		G: 53.000000
+		H:18.681541
+		F:71.681541
+	Parent:(52,52)
+----------[0m
+[32m[DEBUG] [1620763903.253464799]: ---- Adding node53,55 to open list with parent:  
+----------
+Node: 
+	ID: (54,54)
+	Cost: 
+		G: 54.000000
+		H:17.464249
+		F:71.464249
+	Parent:(53,53)
+----------[0m
+[32m[DEBUG] [1620763903.253519832]: ---- Adding node54,55 to open list with parent:  
+----------
+Node: 
+	ID: (54,54)
+	Cost: 
+		G: 54.000000
+		H:17.464249
+		F:71.464249
+	Parent:(53,53)
+----------[0m
+[32m[DEBUG] [1620763903.253566822]: ---- Adding node55,53 to open list with parent:  
+----------
+Node: 
+	ID: (54,54)
+	Cost: 
+		G: 54.000000
+		H:17.464249
+		F:71.464249
+	Parent:(53,53)
+----------[0m
+[32m[DEBUG] [1620763903.253601932]: ---- Adding node55,54 to open list with parent:  
+----------
+Node: 
+	ID: (54,54)
+	Cost: 
+		G: 54.000000
+		H:17.464249
+		F:71.464249
+	Parent:(53,53)
+----------[0m
+[32m[DEBUG] [1620763903.253636981]: ---- Adding node55,55 to open list with parent:  
+----------
+Node: 
+	ID: (54,54)
+	Cost: 
+		G: 54.000000
+		H:17.464249
+		F:71.464249
+	Parent:(53,53)
+----------[0m
+[32m[DEBUG] [1620763903.253684053]: ---- Adding node54,56 to open list with parent:  
+----------
+Node: 
+	ID: (55,55)
+	Cost: 
+		G: 55.000000
+		H:16.278820
+		F:71.278824
+	Parent:(54,54)
+----------[0m
+[32m[DEBUG] [1620763903.253726263]: ---- Adding node55,56 to open list with parent:  
+----------
+Node: 
+	ID: (55,55)
+	Cost: 
+		G: 55.000000
+		H:16.278820
+		F:71.278824
+	Parent:(54,54)
+----------[0m
+[32m[DEBUG] [1620763903.253761574]: ---- Adding node56,54 to open list with parent:  
+----------
+Node: 
+	ID: (55,55)
+	Cost: 
+		G: 55.000000
+		H:16.278820
+		F:71.278824
+	Parent:(54,54)
+----------[0m
+[32m[DEBUG] [1620763903.253796311]: ---- Adding node56,55 to open list with parent:  
+----------
+Node: 
+	ID: (55,55)
+	Cost: 
+		G: 55.000000
+		H:16.278820
+		F:71.278824
+	Parent:(54,54)
+----------[0m
+[32m[DEBUG] [1620763903.253831255]: ---- Adding node56,56 to open list with parent:  
+----------
+Node: 
+	ID: (55,55)
+	Cost: 
+		G: 55.000000
+		H:16.278820
+		F:71.278824
+	Parent:(54,54)
+----------[0m
+[32m[DEBUG] [1620763903.253878096]: ---- Adding node55,57 to open list with parent:  
+----------
+Node: 
+	ID: (56,56)
+	Cost: 
+		G: 56.000000
+		H:15.132746
+		F:71.132744
+	Parent:(55,55)
+----------[0m
+[32m[DEBUG] [1620763903.253919869]: ---- Adding node56,57 to open list with parent:  
+----------
+Node: 
+	ID: (56,56)
+	Cost: 
+		G: 56.000000
+		H:15.132746
+		F:71.132744
+	Parent:(55,55)
+----------[0m
+[32m[DEBUG] [1620763903.253955611]: ---- Adding node57,55 to open list with parent:  
+----------
+Node: 
+	ID: (56,56)
+	Cost: 
+		G: 56.000000
+		H:15.132746
+		F:71.132744
+	Parent:(55,55)
+----------[0m
+[32m[DEBUG] [1620763903.253990610]: ---- Adding node57,56 to open list with parent:  
+----------
+Node: 
+	ID: (56,56)
+	Cost: 
+		G: 56.000000
+		H:15.132746
+		F:71.132744
+	Parent:(55,55)
+----------[0m
+[32m[DEBUG] [1620763903.254025379]: ---- Adding node57,57 to open list with parent:  
+----------
+Node: 
+	ID: (56,56)
+	Cost: 
+		G: 56.000000
+		H:15.132746
+		F:71.132744
+	Parent:(55,55)
+----------[0m
+[32m[DEBUG] [1620763903.254072054]: ---- Adding node56,58 to open list with parent:  
+----------
+Node: 
+	ID: (57,57)
+	Cost: 
+		G: 57.000000
+		H:14.035668
+		F:71.035667
+	Parent:(56,56)
+----------[0m
+[32m[DEBUG] [1620763903.254113910]: ---- Adding node57,58 to open list with parent:  
+----------
+Node: 
+	ID: (57,57)
+	Cost: 
+		G: 57.000000
+		H:14.035668
+		F:71.035667
+	Parent:(56,56)
+----------[0m
+[32m[DEBUG] [1620763903.254199560]: ---- Adding node58,56 to open list with parent:  
+----------
+Node: 
+	ID: (57,57)
+	Cost: 
+		G: 57.000000
+		H:14.035668
+		F:71.035667
+	Parent:(56,56)
+----------[0m
+[32m[DEBUG] [1620763903.254243730]: ---- Adding node58,57 to open list with parent:  
+----------
+Node: 
+	ID: (57,57)
+	Cost: 
+		G: 57.000000
+		H:14.035668
+		F:71.035667
+	Parent:(56,56)
+----------[0m
+[32m[DEBUG] [1620763903.256125718]: ---- Adding node58,58 to open list with parent:  
+----------
+Node: 
+	ID: (57,57)
+	Cost: 
+		G: 57.000000
+		H:14.035668
+		F:71.035667
+	Parent:(56,56)
+----------[0m
+[32m[DEBUG] [1620763903.256207204]: ---- Adding node57,59 to open list with parent:  
+----------
+Node: 
+	ID: (58,58)
+	Cost: 
+		G: 58.000000
+		H:13.000000
+		F:71.000000
+	Parent:(57,57)
+----------[0m
+[32m[DEBUG] [1620763903.256252189]: ---- Adding node58,59 to open list with parent:  
+----------
+Node: 
+	ID: (58,58)
+	Cost: 
+		G: 58.000000
+		H:13.000000
+		F:71.000000
+	Parent:(57,57)
+----------[0m
+[32m[DEBUG] [1620763903.256288675]: ---- Adding node59,57 to open list with parent:  
+----------
+Node: 
+	ID: (58,58)
+	Cost: 
+		G: 58.000000
+		H:13.000000
+		F:71.000000
+	Parent:(57,57)
+----------[0m
+[32m[DEBUG] [1620763903.256324070]: ---- Adding node59,58 to open list with parent:  
+----------
+Node: 
+	ID: (58,58)
+	Cost: 
+		G: 58.000000
+		H:13.000000
+		F:71.000000
+	Parent:(57,57)
+----------[0m
+[32m[DEBUG] [1620763903.256359010]: ---- Adding node59,59 to open list with parent:  
+----------
+Node: 
+	ID: (58,58)
+	Cost: 
+		G: 58.000000
+		H:13.000000
+		F:71.000000
+	Parent:(57,57)
+----------[0m
+[32m[DEBUG] [1620763903.256429698]: ---- Adding node60,57 to open list with parent:  
+----------
+Node: 
+	ID: (59,58)
+	Cost: 
+		G: 59.000000
+		H:12.000000
+		F:71.000000
+	Parent:(58,58)
+----------[0m
+[32m[DEBUG] [1620763903.256466791]: ---- Adding node60,58 to open list with parent:  
+----------
+Node: 
+	ID: (59,58)
+	Cost: 
+		G: 59.000000
+		H:12.000000
+		F:71.000000
+	Parent:(58,58)
+----------[0m
+[32m[DEBUG] [1620763903.256502435]: ---- Adding node60,59 to open list with parent:  
+----------
+Node: 
+	ID: (59,58)
+	Cost: 
+		G: 59.000000
+		H:12.000000
+		F:71.000000
+	Parent:(58,58)
+----------[0m
+[32m[DEBUG] [1620763903.256562851]: ---- Adding node61,57 to open list with parent:  
+----------
+Node: 
+	ID: (60,58)
+	Cost: 
+		G: 60.000000
+		H:11.000000
+		F:71.000000
+	Parent:(59,58)
+----------[0m
+[32m[DEBUG] [1620763903.256606400]: ---- Adding node61,58 to open list with parent:  
+----------
+Node: 
+	ID: (60,58)
+	Cost: 
+		G: 60.000000
+		H:11.000000
+		F:71.000000
+	Parent:(59,58)
+----------[0m
+[32m[DEBUG] [1620763903.256642038]: ---- Adding node61,59 to open list with parent:  
+----------
+Node: 
+	ID: (60,58)
+	Cost: 
+		G: 60.000000
+		H:11.000000
+		F:71.000000
+	Parent:(59,58)
+----------[0m
+[32m[DEBUG] [1620763903.256703139]: ---- Adding node62,57 to open list with parent:  
+----------
+Node: 
+	ID: (61,58)
+	Cost: 
+		G: 61.000000
+		H:10.000000
+		F:71.000000
+	Parent:(60,58)
+----------[0m
+[32m[DEBUG] [1620763903.256739135]: ---- Adding node62,58 to open list with parent:  
+----------
+Node: 
+	ID: (61,58)
+	Cost: 
+		G: 61.000000
+		H:10.000000
+		F:71.000000
+	Parent:(60,58)
+----------[0m
+[32m[DEBUG] [1620763903.256774294]: ---- Adding node62,59 to open list with parent:  
+----------
+Node: 
+	ID: (61,58)
+	Cost: 
+		G: 61.000000
+		H:10.000000
+		F:71.000000
+	Parent:(60,58)
+----------[0m
+[32m[DEBUG] [1620763903.256834657]: ---- Adding node63,57 to open list with parent:  
+----------
+Node: 
+	ID: (62,58)
+	Cost: 
+		G: 62.000000
+		H:9.000000
+		F:71.000000
+	Parent:(61,58)
+----------[0m
+[32m[DEBUG] [1620763903.256870508]: ---- Adding node63,58 to open list with parent:  
+----------
+Node: 
+	ID: (62,58)
+	Cost: 
+		G: 62.000000
+		H:9.000000
+		F:71.000000
+	Parent:(61,58)
+----------[0m
+[32m[DEBUG] [1620763903.256905479]: ---- Adding node63,59 to open list with parent:  
+----------
+Node: 
+	ID: (62,58)
+	Cost: 
+		G: 62.000000
+		H:9.000000
+		F:71.000000
+	Parent:(61,58)
+----------[0m
+[32m[DEBUG] [1620763903.256976902]: ---- Adding node64,57 to open list with parent:  
+----------
+Node: 
+	ID: (63,58)
+	Cost: 
+		G: 63.000000
+		H:8.000000
+		F:71.000000
+	Parent:(62,58)
+----------[0m
+[32m[DEBUG] [1620763903.257022340]: ---- Adding node64,58 to open list with parent:  
+----------
+Node: 
+	ID: (63,58)
+	Cost: 
+		G: 63.000000
+		H:8.000000
+		F:71.000000
+	Parent:(62,58)
+----------[0m
+[32m[DEBUG] [1620763903.257057151]: ---- Adding node64,59 to open list with parent:  
+----------
+Node: 
+	ID: (63,58)
+	Cost: 
+		G: 63.000000
+		H:8.000000
+		F:71.000000
+	Parent:(62,58)
+----------[0m
+[32m[DEBUG] [16207

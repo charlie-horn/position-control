@@ -1,0 +1,2 @@
+simulator:vicon
+-DCATKIN_DEVEL_PREFIX=/home/charlie/projects/position_controller/devel -DCMAKE_INSTALL_PREFIX=/home/charlie/projects/position_controller/install -G Unix Makefiles

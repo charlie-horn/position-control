@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11  -shared -Wl,-soname,libNode,.so -o /home/charlie/projects/position_controller/devel/lib/libNode,.so CMakeFiles/Node,.dir/src/Node.cpp.o 

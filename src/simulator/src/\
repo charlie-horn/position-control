@@ -1,0 +1,138 @@
+#include "geometry_msgs/TransformStamped.h"
+#include "PathPlanner.h"
+#include "Landmarks.h"
+#include "Obstacles.h"
+//#include "Node.h"
+
+std::vector<Node*> PathPlanner::make_path(Node* dest)
+{
+    Node* node = dest;
+    std::vector<Node*> nodes;
+    while (node->parent != node) {
+        nodes.push_back(node);
+        node = node->parent;
+    }
+    nodes.push_back(node);
+    return nodes;
+}
+
+std::vector<Node> PathPlanner::a_star(Node* start, Node* end)
+{
+    //std::vector<std::vector<Node*>(num_coords)>(num_coords) map;
+    //std::vector<std::vector<bool>(num_coords)>(num_coords) closed_list;
+    std::vector<Node*> open_list;
+    std::vector<Node*> empty;
+
+    // initialize map
+    for (int i=0; i<10*num_coords; ++i){
+        for (int j=0; j<10*num_coords; ++j) {
+            map[i][j]->f_cost = FLT_MAX;
+            map[i][j]->g_cost = FLT_MAX;
+            map[i][j]->h_cost = FLT_MAX;
+            map[i][j]->parent = nullptr;
+            map[i][j]->x = i;
+            map[i][j]->y = j;
+            closed_list[i][j] = false;
+        }
+    }
+
+    // Initialize starting point
+    map[start->x][start->y]->f_cost = 0.0;
+    map[start->x][start->y]->g_cost = 0.0;
+    map[start->x][start->y]->h_cost = 0.0;
+    map[start->x][start->y]->parent = start;
+
+    open_list.push_back(start);
+
+    bool destinationFound = false;
+
+    while (!open_list.empty() && open_list.size()<num_coords*num_coords) {
+        
+        // Find and remove neighbouring undiscovered nodes with lowest f score
+        Node* node;
+        do {
+            float lowest_f = FLT_MAX;
+            int lowest_id = -1;
+            for (int i=0; i<open_list.size(); ++i){
+                Node* curr_node = open_list[i];
+                if (curr_node.f_cost < lowest_f) {
+                    lowest_f = curr_node.f_cost;
+                    lowest_id = i;
+                    node = curr_node;
+                }
+            }
+            open_list.erase(open_list.begin()+lowest_id);
+        } while(node->isValid() == false);
+
+        closed_list[node-x][node->y] = true;
+
+        for (int newX = -1; newX <= 1; newX++) {
+            for (int newY = -1; newY <= 1; newY++) {
+                double gNew, hNew, fNew;
+                Node* new_node(node->x+newX,node->y+newY);
+                if (new_node->isValid()) {
+                    if (new_node->isDestination(dest))
+                    {
+                        //Destination found - make path
+                        map[new_node->x][new_node->y]->parent = node;
+                        destinationFound = true;
+                        return make_path(map, dest);
+                    }
+                    else if (closedList[new_node->x][new_node->y] == false)
+                    {
+                        gNew = node->gCost + 1.0;
+                        hNew = new_node->calculate_H(dest);
+                        fNew = gNew + hNew;
+                        // Check if this path is better than the one already present
+                        if (map[new_node->x][new_node->y]->f_cost > fNew)
+                        {
+                            // Update the details of this neighbour node
+                            map[new_node->x][new_node->y]->f_cost = fNew;
+                            map[new_node->x][new_node->y]->g_cost = gNew;
+                            map[new_node->x][new_node->y]->h_cost = hNew;
+                            map[new_node->x][new_node->y].parent = node;
+                            open_ist.emplace_back(map[new_node->x][new_node->y]);
+                        }
+                    }
+                }
+            }
+        }
+        }
+        if (destinationFound == false) {
+            cout << "Destination not found" << endl;
+            return empty;
+}
+
+Node msg_to_node(geometry_msgs::TransformStamped msg)
+{
+    Node node(msg.transform.translation.x, msg.transform.translation.y);
+    return node;
+}
+
+std::vector<geometry_msgs::TransformStamped> get_segment(geometry_msgs::TransformStamped start,
+                                                         geometry_msgs::TransformStamped end)
+{
+    Node start_node = msg_to_node(start);
+    Node end_node = msg_to_node(end);
+    std::vector<Node*> nodes = a_star(start_node, end_node);
+    std::vector<geometry_msgs::TransformStamped> segment;
+    for (int i=0; i<= nodes.size(); ++i) {
+        segment.push_back(nodes[i]->toMsg());
+    }
+    return segment;
+}
+
+PathPlanner::PathPlanner(std::vector<int> visits) {
+    visits.push_back(0);
+    visits.insert(visits.begin(),0);
+
+    std::vector<geometry_msgs::TransformStamped> landmarks = get_landmarks();
+
+    for (int i=0; i<visits.size()+1; ++i){
+        geometry_msgs::TransformStamped start = landmarks[i];
+        geometry_msgs::TransformStamped end = landmarks[i+1];
+        std::vector<geometry_msgs::TransformStamped> segment = get_segment(start, end);
+        path.push_back(segment);
+    }
+}
+

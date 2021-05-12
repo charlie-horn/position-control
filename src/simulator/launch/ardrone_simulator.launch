@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Launch file to start the AR.Drone 2.0 simulator for AER1217 -->
+<!-- UTIAS CARRE AER1217 - Winter 2017 
+-->
+
+<launch>
+
+  <!-- Launch the world generation -->
+  <include file="$(find simulator)/launch/world.launch"
+    />
+ 
+  <!-- Create ROS node that simulates the AR Drone 2 and the VICON system. It subscribes to desired roll angle, pitch angle, yaw rate, climb rate and publishes current position and attitude -->
+  <node name="lab_interface" pkg="simulator" 
+    type="indoor_robotics_lab_interface.py" output="screen" required="True"/>
+
+  <node name="position_control" pkg="simulator" output="screen" type="main" required="True"/>
+  <!--node name="position_control" pkg="simulator" type="main" required="True"/>-->
+
+</launch>
