@@ -75,6 +75,7 @@ std::vector<Node*> PathPlanner::make_path(Node* dest)
     plt::show();
     ROS_DEBUG_STREAM_NAMED("conversion","Done tracing");
     nodes.push_back(node);
+    std::reverse(nodes.begin(), nodes.end());
     return nodes;
 }
 
@@ -221,12 +222,12 @@ PathPlanner::PathPlanner(std::vector<int> visits) {
 
     std::vector<geometry_msgs::TransformStamped> landmarks = get_landmarks();
 
-    for (int i=0; i<visits.size()+1; ++i){
+    for (int i=0; i<visits.size()-1; ++i){
         ROS_DEBUG_STREAM_NAMED("segment_planner","Planning segment " << i);
         ROS_DEBUG_STREAM_NAMED("segment_planner","-- Start " << landmarks[i] );
         ROS_DEBUG_STREAM_NAMED("segment_planner","-- End " << landmarks[i+1] );
-        geometry_msgs::TransformStamped start = landmarks[i];
-        geometry_msgs::TransformStamped end = landmarks[i+1];
+        geometry_msgs::TransformStamped start = landmarks[visits[i]];
+        geometry_msgs::TransformStamped end = landmarks[visits[i+1]];
         std::vector<geometry_msgs::TransformStamped> segment = get_segment(start, end);
         ROS_DEBUG_STREAM_NAMED("path_creation","Received MSG segment " << i);
         path.push_back(segment);

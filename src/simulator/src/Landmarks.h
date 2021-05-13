@@ -5,8 +5,8 @@ std::vector<geometry_msgs::TransformStamped> get_landmarks()
 {
     std::vector<geometry_msgs::TransformStamped> landmarks(5);
     
-    landmarks[0].transform.translation.x = 0;
-    landmarks[0].transform.translation.y = 0;
+    landmarks[0].transform.translation.x = 1.0;
+    landmarks[0].transform.translation.y = 1.0;
     landmarks[0].transform.translation.z = 3;
 
     landmarks[1].transform.translation.x = 7.149;

@@ -33,7 +33,8 @@ int main(int argc, char **argv)
     //ROS_ERROR("ERROR");
     ros::NodeHandle n;
 
-    ros::Publisher pub = n.advertise<geometry_msgs::Twist>("/cmd_vel_RHC", 32);
+    ros::Publisher cmd_pub = n.advertise<geometry_msgs::Twist>("/cmd_vel_RHC", 32);
+    ros::Publisher des_pub = n.advertise<geometry_msgs::TransformStamped>("/des_pos", 32);
     
     ros::Publisher takeoff = n.advertise<std_msgs::Empty>("/ardrone/takeoff",1);
     std_msgs::Empty takeoff_msg;
@@ -48,7 +49,7 @@ int main(int argc, char **argv)
     }
 
 
-    std::vector<int> visits = {2};
+    std::vector<int> visits = {4,3,2};
     //while(ros::ok()){ros::spinOnce();}
     PathPlanner planner(visits);
 
@@ -69,8 +70,8 @@ int main(int argc, char **argv)
         //desired_state = generator.get_desired_state(current_state);
         control_command = controller.get_control_command();
 
-        pub.publish(control_command);
-
+        cmd_pub.publish(control_command);
+        des_pub.publish(controller.desired_state);
         ros::spinOnce();
 
         rate.sleep();

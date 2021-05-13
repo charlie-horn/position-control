@@ -10,7 +10,7 @@ class PositionController
 
         geometry_msgs::TransformStamped previous_state;
         geometry_msgs::TransformStamped current_state;
-        geometry_msgs::TransformStamped desired_state;
+
         float threshold;
 
         float dt;
@@ -38,7 +38,7 @@ class PositionController
 
     public:
         PositionController(std::vector<std::vector<geometry_msgs::TransformStamped>> p);
-
+        geometry_msgs::TransformStamped desired_state;
         void update_current_state(const geometry_msgs::TransformStamped msg);
 
         geometry_msgs::Twist get_control_command(void){return control_command;};

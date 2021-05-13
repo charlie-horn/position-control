@@ -61,9 +61,9 @@ double Node::calculate_H(Node* dest)
 
 geometry_msgs::TransformStamped Node::toMsg(){
     geometry_msgs::TransformStamped msg;
-    msg.transform.translation.x = x/10;
-    msg.transform.translation.y = y/10;
-    msg.transform.translation.z = 3;
+    msg.transform.translation.x = static_cast<float>(x)/static_cast<float>(10);
+    msg.transform.translation.y = static_cast<float>(y)/static_cast<float>(10);
+    msg.transform.translation.z = 3.0;
     ROS_DEBUG_STREAM_NAMED("path_creation","Returning msg");
     return msg;
 }

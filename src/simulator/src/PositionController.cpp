@@ -58,7 +58,7 @@ PositionController::PositionController(std::vector<std::vector<geometry_msgs::Tr
     segment_count = 0;
     position_count = 0;
     dir = 1;
-    threshold = 0.01;
+    threshold = 0.001;
     desired_state = path[segment_count][position_count];
     update_command();
 
@@ -110,6 +110,8 @@ void PositionController::update_desired_state()
             position_count = position_count + dir;
         }
     }
+    //ROS_DEBUG_STREAM_NAMED("path_following","PATH at curr: " << path[segment_count][position_count]);
+    //ROS_DEBUG_STREAM_NAMED("path_following","PATH at 0: " << path[0][0]);
     desired_state = path[segment_count][position_count];
 }
 
